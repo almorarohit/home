@@ -4,13 +4,15 @@
 
 	$brands = array('a','b','c');
 
-	$featured_product = array(
+	$all_products = array(
 		array('hey', '13', '123123', '', '1'),
 		array('eded', '22', '123', '', '1'),
 		array('newpr', '50', '44', '', '3'),
 		array('newpr1', '70', '50', '', '2'),
 		array('eccec', '1211', '123', '', '2')
 		);
+
+	$featured_product = array('1', '2', '4');
 
 	//name, old, new, image name, brand id(1,2,3,4)
 

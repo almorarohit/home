@@ -24,7 +24,7 @@
 						<?php 
 							$i = 1;
 
-							foreach ($featured_product as $fp) {
+							foreach ($all_products as $fp) {
 
 								if($fp[4] == $id){?>
 
