@@ -13,7 +13,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="feature-headline section-heading text-center">
-							<h2><?php echo $brands[$id];?></h2>
+							<h2><?php echo $brands[$id-1];?></h2>
 						</div>
 					</div>
 				</div>

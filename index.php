@@ -63,7 +63,7 @@
 								<div class="product-img">
 									<span class="sale-text">sale</span>
 									<a href="/single-product.php?id=<?php echo $i;?>">
-										<img class="primary-img" src="img/new-product/10.jpg" alt="">
+										<img class="primary-img" src="img/new-product/22_4.jpg" alt="">
 									</a>
 								</div>
 								<div class="add-to-cart">

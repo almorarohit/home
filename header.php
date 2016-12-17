@@ -7,6 +7,8 @@
 	$featured_product = array(
 		array('hey', '13', '123123', '', '1'),
 		array('eded', '22', '123', '', '1'),
+		array('newpr', '50', '44', '', '3'),
+		array('newpr1', '70', '50', '', '2'),
 		array('eccec', '1211', '123', '', '2')
 		);
 
@@ -251,7 +253,7 @@
 								<div class="main-menu">
 									<nav>
 										<ul>
-											<li><a href="">Menu</a>
+											<li><a href="">Rice Brands</a>
 												<ul>
 													<?php $i = 1; foreach ($brands as $b) {?>
 														

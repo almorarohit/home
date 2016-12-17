@@ -12,7 +12,7 @@
                                     <img class="box-icon" src="img/icons/ft-img1.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
-                                    <h2>free shipping worldwide</h2>
+                                    <h2>free shipping upto 10km</h2>
                                     <p>On order over $150 - 7 days a week</p>
                                 </div>
                             </div>
