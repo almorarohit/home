@@ -22,15 +22,15 @@
 							<!-- contact info -->
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<div class="contact-info">
-									<h3>Contact info</h3>
+									<h3>contactct info</h3>
 									<ul>
 										<li>
 											<i class="fa fa-map-marker"></i> <strong>Address</strong>
-											1234 Pall Mall Street, London England
+											DP-229, 3rd FLOOR,PITAMPURA, NEW DELHI-110034
 										</li>
 										<li>
 											<i class="fa fa-envelope"></i> <strong>Phone</strong>
-											(800) 0123 4567 890
+											(+91)8860486224
 										</li>
 										<li>
 											<i class="fa fa-mobile"></i> <strong>Email</strong>
@@ -75,9 +75,9 @@
 		<script>
 			function initialize() {
 			  var mapOptions = {
-				zoom: 15,
+				zoom: 17,
 				scrollwheel: false,
-				center: new google.maps.LatLng(23.81033, 90.41252)
+				center: new google.maps.LatLng(28.7041, 77.1489)
 			  };
 
 			  var map = new google.maps.Map(document.getElementById('googleMap'),
@@ -87,7 +87,7 @@
 			  var marker = new google.maps.Marker({
 				position: map.getCenter(),
 				animation:google.maps.Animation.BOUNCE,
-				icon: 'img/logo/map-marker.png',
+				icon: 'img/icons/seach.png',
 				map: map
 			  });
 

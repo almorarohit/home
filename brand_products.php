@@ -51,7 +51,7 @@
 								<div class="product-img">
 									<span class="sale-text">sale</span>
 									<a href="/single-product.php?id=<?php echo $i;?>">
-										<img class="primary-img" src="img/product/<?php echo $fp[3];?>" alt="">
+										<img class="primary-img" src="img/new-product/<?php echo $fp[3];?>" alt="">
 									</a>
 								</div>
 								<div class="add-to-cart">

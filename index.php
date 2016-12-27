@@ -7,6 +7,7 @@
 				<div id="topSlider" class="nivoSlider nevo-slider">
 					<img src="img/slider/slide1-home1.jpg" alt="main slider" title="#htmlcaption1"/>
 					<img src="img/slider/slide2-home1.jpg" alt="main slider" title="#htmlcaption2"/>
+					<img src="img/slider/slide2-home3.jpg" alt="main slider" title="#htmlcaption2"/>
 				</div>
 				<div id="htmlcaption1" class="nivo-html-caption slider-caption">
 					<div class="slider-progress"></div>
@@ -63,7 +64,7 @@
 								<div class="product-img">
 									<span class="sale-text">sale</span>
 									<a href="/single-product.php?id=<?php echo $i;?>">
-										<img class="primary-img" src="img/product/<?php echo $all_products[$fp][3];?>" alt="">
+										<img class="primary-img" src="img/new-product/<?php echo $all_products[$fp][3];?>" alt="">
 									</a>
 								</div>
 								<div class="add-to-cart">

@@ -2,17 +2,57 @@
 
 	session_start();
 
-	$brands = array('a','b','c');
+	$brands = array('India Gate','Pansari','KRB','Sella','Delhi Pasand');
+	$dal_brands = array('Loose Dal','Packed Dal');
 
 	$all_products = array(
-		array('hey', '13', '123123', '', '1'),
-		array('eded', '22', '123', '', '1'),
-		array('newpr', '50', '44', '', '3'),
-		array('newpr1', '70', '50', '', '2'),
-		array('eccec', '1211', '123', '', '2')
-		);
+		array('Feast Rozzana', '13', '123123', '10.jpg', '1'),
+		array('Mini Dubar', '22', '123', '10_10.jpg', '1'),
+		array('Mini Mogra', '50', '44', '10_9.jpg', '1'),
+		array('Mini Mogra II', '70', '50', '11_13.jpg', '1'),
+		array('Mogra', '1211', '123', '11_4.jpg', '1'),
+		array('Tibar', '110', '90', '13_2.jpg', '1'),
+		array('Dubar', '110', '90', '13_2.jpg', '1'),
+		array('Mehak', '110', '90', '13_2.jpg', '2'),
+		array('Tasty', '110', '90', '13_2.jpg', '2'),
+		array('Khana Khazana', '110', '90', '13_2.jpg', '2'),
+		array('Royal', '110', '90', '13_2.jpg', '2'),
+		array('Daily', '110', '90', '13_2.jpg', '2'),
+		array('1', '110', '90', '13_2.jpg', '3'),
+		array('2', '110', '90', '13_2.jpg', '3'),
+		array('3', '110', '90', '13_2.jpg', '3'),
+		array('4', '110', '90', '13_2.jpg', '3'),
+		array('5', '110', '90', '13_2.jpg', '3'),
+		array('6', '110', '90', '13_2.jpg', '3'),
+		array('7', '110', '90', '13_2.jpg', '3'),
+		array('8', '110', '90', '13_2.jpg', '3'),
+		array('XXL', '110', '90', '13_2.jpg', '3'),
+		array('Galaxy Golden Sella', '110', '90', '13_2.jpg', '4'),
+		array('Golden Sella Double Chabi', '110', '90', '13_2.jpg', '4'),
+		array('Premium', '110', '90', '13_2.jpg', '5'),
+		array('Super', '110', '90', '13_2.jpg', '5'),
+		array('Light', '110', '90', '13_2.jpg', '5'),
+		array('Regular', '110', '90', '13_2.jpg', '5'),
+		array('Easy', '110', '90', '13_2.jpg', '5'),
+		array('Daily', '110', '90', '13_2.jpg', '5'),
+		array('Moong Dhuli', '110', '90', '13_2.jpg', '5'),
+		array('Moong Sabut', '110', '90', '13_2.jpg', '5'),
+		array('Moong Chilka', '110', '90', '13_2.jpg', '5'),
+		array('Udad Dhuli', '110', '90', '13_2.jpg', '5'),
+		array('Udad Sabut', '110', '90', '13_2.jpg', '5'),
+		array('Udad Chilka', '110', '90', '13_2.jpg', '5'),
+		array('Arhar', '110', '90', '13_2.jpg', '5'),
+		array('Kali Masoor', '110', '90', '13_2.jpg', '5'),
+		array('Lal Masoor(Malka)', '110', '90', '13_2.jpg', '5'),
+		array('Kala Chana', '110', '90', '13_2.jpg', '5'),
+		array('Chane ki Dal', '110', '90', '13_2.jpg', '5'),
+		array('White chana', '110', '90', '13_2.jpg', '5'),
+		array('Lobhiya', '110', '90', '13_2.jpg', '5'),
+		array('Safed Matar', '110', '90', '13_2.jpg', '5'),
+		array('Rajma', '110', '90', '13_2.jpg', '5'),
+		); 
 
-	$featured_product = array('1', '2', '4');
+	$featured_product = array('3', '2', '4');
 
 	//name, old, new, image name, brand id(1,2,3,4)
 
@@ -258,6 +298,16 @@
 											<li><a href="">Rice Brands</a>
 												<ul>
 													<?php $i = 1; foreach ($brands as $b) {?>
+														
+														<li><a href="/brand_products.php?id=<?php echo $i;?>"><?php echo $b;?></a></li>
+
+													<?php $i++;}?>
+													
+												</ul>
+												</li>
+												<li><a href="">Dal</a>
+												<ul>
+													<?php $i = 1; foreach ($dal_brands as $b) {?>
 														
 														<li><a href="/brand_products.php?id=<?php echo $i;?>"><?php echo $b;?></a></li>
 

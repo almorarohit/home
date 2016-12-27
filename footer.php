@@ -97,11 +97,11 @@
                                 <div class="footer-address">
                                     <ul>
                                         <li>
-                                            <i class="fa fa-map-marker"> </i>Address : No 40 Baria Sreet 133/2 NewYork City, NY, United States.</li>
+                                            <i class="fa fa-map-marker"> </i>Address : DP-229, 3rd FLOOR, PITAMPURA, NEW DELHI-110034</li>
                                         <li>
-                                            <i class="fa fa-phone"> </i> 0(1234) 567 890</li>
+                                            <i class="fa fa-phone"> </i> 8860486224 </li>
                                         <li>
-                                            <i class="fa fa-envelope-o"> </i> Email: admin@bootexperts.com</li>
+                                            <i class="fa fa-envelope-o"> </i> Email: almorarohitsharma@gmail.com</li>
                                     </ul>
                                 </div>
                             </div>
