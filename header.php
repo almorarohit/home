@@ -2,8 +2,10 @@
 
 	session_start();
 
-	$brands = array('India Gate','Pansari','KRB','Sella','Delhi Pasand');
-	$dal_brands = array('Loose Dal','Packed Dal');
+	$brands = array('India Gate','Pansari','KRB','Sella','Delhi Pasand','Loose Dal','Packed Dal');
+
+	$dal_brands = array('5', '6');
+	//tell which brands are of dal from $brands (remember array starts from 0)
 
 	$all_products = array(
 		array('Feast Rozzana', '13', '123123', '10.jpg', '1'),
@@ -52,7 +54,7 @@
 		array('Rajma', '110', '90', '13_2.jpg', '5'),
 		); 
 
-	$featured_product = array('3', '2', '4');
+	$featured_product = array('3', '2', '4', '1', '7');
 
 	//name, old, new, image name, brand id(1,2,3,4)
 
@@ -295,23 +297,25 @@
 								<div class="main-menu">
 									<nav>
 										<ul>
-											<li><a href="">Rice Brands</a>
+											<li><a href="#">Rice Brands</a>
 												<ul>
-													<?php $i = 1; foreach ($brands as $b) {?>
-														
-														<li><a href="/brand_products.php?id=<?php echo $i;?>"><?php echo $b;?></a></li>
+													<?php foreach ($brands as $key => $value) {
+														if(!in_array($key, $dal_brands)){?>
 
-													<?php $i++;}?>
+														<li><a href="/brand_products.php?id=<?php echo $key+1;?>"><?php echo $value;?></a></li>
+
+													<?php }}?>
 													
 												</ul>
 												</li>
-												<li><a href="">Dal</a>
+												<li><a href="#">Dal</a>
 												<ul>
-													<?php $i = 1; foreach ($dal_brands as $b) {?>
-														
-														<li><a href="/brand_products.php?id=<?php echo $i;?>"><?php echo $b;?></a></li>
+													<?php foreach ($brands as $key => $value) {
+														if(in_array($key, $dal_brands)){?>
 
-													<?php $i++;}?>
+														<li><a href="/brand_products.php?id=<?php echo $key+1;?>"><?php echo $value;?></a></li>
+
+													<?php }}?>
 													
 												</ul>
 												</li>
