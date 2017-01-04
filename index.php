@@ -34,7 +34,7 @@
 				</div>
 				<!-- Area-heading end -->
 				<div class="row">
-					<div class="feature-product-4">
+					<div class="feature-product product-carousel derection-key">
 						<!-- single-product start -->
 						<?php 
 							$i = 1;

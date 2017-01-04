@@ -19,7 +19,7 @@
 				</div>
 				<!-- Area-heading end -->
 				<div class="row">
-					<div class="feature-product product-carousel derection-key">
+					<div class="feature-product">
 						<!-- single-product start -->
 						<?php 
 							$i = 1;
