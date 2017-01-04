@@ -5,9 +5,9 @@
 			<!-- slider start -->
 			<div class="slider">
 				<div id="topSlider" class="nivoSlider nevo-slider">
-					<img src="img/slider/slide1-home1.jpg" alt="main slider" title="#htmlcaption1"/>
-					<img src="img/slider/slide2-home1.jpg" alt="main slider" title="#htmlcaption2"/>
-					<img src="img/slider/slide2-home3.jpg" alt="main slider" title="#htmlcaption2"/>
+					<img src="img/slider/124.jpg" alt="main slider" title="#htmlcaption1"/>
+					<img src="img/slider/dal&pulses.jpg" alt="main slider" title="#htmlcaption2"/>
+					<img src="img/slider/indiagate.jpg" alt="main slider" title="#htmlcaption2"/>
 				</div>
 				<div id="htmlcaption1" class="nivo-html-caption slider-caption">
 					<div class="slider-progress"></div>

@@ -8,37 +8,37 @@
 	//tell which brands are of dal from $brands (remember array starts from 0)
 
 	$all_products = array(
-		array('Feast Rozzana', '13', '123123', '10.jpg', '1'),
-		array('Mini Dubar', '22', '123', '10_10.jpg', '1'),
-		array('Mini Mogra', '50', '44', '10_9.jpg', '1'),
-		array('Mini Mogra II', '70', '50', '11_13.jpg', '1'),
-		array('Mogra', '1211', '123', '11_4.jpg', '1'),
-		array('Tibar', '110', '90', '13_2.jpg', '1'),
-		array('Dubar', '110', '90', '13_2.jpg', '1'),
-		array('Mehak', '110', '90', '13_2.jpg', '2'),
-		array('Tasty', '110', '90', '13_2.jpg', '2'),
-		array('Khana Khazana', '110', '90', '13_2.jpg', '2'),
+		array('Feast Rozzana', '13', '123123', 'India Gate Feast Rozzana.png', '1'),
+		array('Mini Dubar', '22', '123', 'India Gate Mini Dubar.jpg', '1'),
+		array('Mini Mogra', '50', '44', 'India Gate mini-mogra.jpg', '1'),
+		array('Mini Mogra II', '70', '50', 'India Gate mini mogra 2.jpg', '1'),
+		array('Mogra', '1211', '123', 'india-gate-basmati-mogra.png', '1'),
+		array('Tibar', '110', '90', 'India gate tibar.png', '1'),
+		array('Dubar', '110', '90', 'india-gate-basmati-rice-dubar.png', '1'),
+		array('Mehak', '110', '90', 'Pansari Mehak.jpg', '2'),
+		array('Tasty', '110', '90', 'Pansari Tasty.jpg', '2'),
+		array('Khana Khazana', '110', '90', 'Pansari Khana Khazana.jpg', '2'),
 		array('Royal', '110', '90', '13_2.jpg', '2'),
 		array('Daily', '110', '90', '13_2.jpg', '2'),
-		array('1', '110', '90', '13_2.jpg', '3'),
-		array('2', '110', '90', '13_2.jpg', '3'),
-		array('3', '110', '90', '13_2.jpg', '3'),
-		array('4', '110', '90', '13_2.jpg', '3'),
-		array('5', '110', '90', '13_2.jpg', '3'),
-		array('6', '110', '90', '13_2.jpg', '3'),
-		array('7', '110', '90', '13_2.jpg', '3'),
-		array('8', '110', '90', '13_2.jpg', '3'),
-		array('XXL', '110', '90', '13_2.jpg', '3'),
+		array('1', '110', '90', 'KRB 1.jpg', '3'),
+		array('2', '110', '90', 'KRB 2.jpg', '3'),
+		array('3', '110', '90', 'KRB 3.jpg', '3'),
+		array('4', '110', '90', 'KRB 4.jpg', '3'),
+		array('5', '110', '90', 'KRB 5.jpg', '3'),
+		array('6', '110', '90', 'KRB 6.jpg', '3'),
+		array('7', '110', '90', 'KRB 7.jpg', '3'),
+		array('8', '110', '90', 'KRB 8.jpg', '3'),
+		array('XXL', '110', '90', 'KRB XXL.jpg', '3'),
 		array('Galaxy Golden Sella', '110', '90', '13_2.jpg', '4'),
 		array('Golden Sella Double Chabi', '110', '90', '13_2.jpg', '4'),
-		array('Premium', '110', '90', '13_2.jpg', '5'),
-		array('Super', '110', '90', '13_2.jpg', '5'),
-		array('Light', '110', '90', '13_2.jpg', '5'),
-		array('Regular', '110', '90', '13_2.jpg', '5'),
-		array('Easy', '110', '90', '13_2.jpg', '5'),
-		array('Daily', '110', '90', '13_2.jpg', '5'),
-		array('Moong Dhuli', '110', '90', '13_2.jpg', '5'),
-		array('Moong Sabut', '110', '90', '13_2.jpg', '5'),
+		array('Premium', '110', '90', 'Delhi Pasand Premium.jpg', '5'),
+		array('Super', '110', '90', 'Delhi Pasand Super.jpg', '5'),
+		array('Light', '110', '90', 'Delhi Pasand Light.jpg', '5'),
+		array('Regular', '110', '90', 'Delhi Pasand Regular.jpg', '5'),
+		array('Easy', '110', '90', 'Delhi Pasand Easy.jpg', '5'),
+		array('Daily', '110', '90', 'Delhi Pasand Daily.jpg', '5'),
+		array('Moong Dhuli', '110', '90', '13_2.jpg', '6'),
+		array('Moong Sabut', '110', '90', '13_2.jpg', '6'),
 		array('Moong Chilka', '110', '90', '13_2.jpg', '5'),
 		array('Udad Dhuli', '110', '90', '13_2.jpg', '5'),
 		array('Udad Sabut', '110', '90', '13_2.jpg', '5'),
@@ -321,9 +321,9 @@
 												</li>
 											<li></li>
 											<li></li>
-											<li></li>
 											<li><a href="about-us.php">About Us</a></li>
 											<li><a href="contact-us.php">Contact us</a></li>
+											<li></li>
 										</ul>
 									</nav>
 								</div>
@@ -342,7 +342,33 @@
 							<div class="mobile-menu">
 								<nav id="dropdown">
 									<ul>
-										<li><a href="https://devitems.com/tf/expert-preview/expert/contact.html">Contact Us</a></li>									
+																					<li><a href="#">Rice Brands</a>
+												<ul>
+													<?php foreach ($brands as $key => $value) {
+														if(!in_array($key, $dal_brands)){?>
+
+														<li><a href="/brand_products.php?id=<?php echo $key+1;?>"><?php echo $value;?></a></li>
+
+													<?php }}?>
+													
+												</ul>
+												</li>
+												<li><a href="#">Dal</a>
+												<ul>
+													<?php foreach ($brands as $key => $value) {
+														if(in_array($key, $dal_brands)){?>
+
+														<li><a href="/brand_products.php?id=<?php echo $key+1;?>"><?php echo $value;?></a></li>
+
+													<?php }}?>
+													
+												</ul>
+												</li>
+											<li></li>
+											<li></li>
+											<li><a href="about-us.php">About Us</a></li>
+											<li><a href="contact-us.php">Contact us</a></li>
+											<li></li>								
 									</ul>
 								</nav>						
 							</div>					
