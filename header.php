@@ -8,50 +8,65 @@
 	//tell which brands are of dal from $brands (remember array starts from 0)
 
 	$all_products = array(
-		array('Feast Rozzana', '13', '123123', 'India Gate Feast Rozzana.png', '1'),
-		array('Mini Dubar', '22', '123', 'India Gate Mini Dubar.jpg', '1'),
-		array('Mini Mogra', '50', '44', 'India Gate mini-mogra.jpg', '1'),
-		array('Mini Mogra II', '70', '50', 'India Gate mini mogra 2.jpg', '1'),
-		array('Mogra', '1211', '123', 'india-gate-basmati-mogra.png', '1'),
-		array('Tibar', '110', '90', 'India gate tibar.png', '1'),
-		array('Dubar', '110', '90', 'india-gate-basmati-rice-dubar.png', '1'),
-		array('Mehak', '110', '90', 'Pansari Mehak.jpg', '2'),
-		array('Tasty', '110', '90', 'Pansari Tasty.jpg', '2'),
-		array('Khana Khazana', '110', '90', 'Pansari Khana Khazana.jpg', '2'),
-		array('Royal', '110', '90', '13_2.jpg', '2'),
-		array('Daily', '110', '90', '13_2.jpg', '2'),
-		array('1', '110', '90', 'KRB 1.jpg', '3'),
-		array('2', '110', '90', 'KRB 2.jpg', '3'),
-		array('3', '110', '90', 'KRB 3.jpg', '3'),
-		array('4', '110', '90', 'KRB 4.jpg', '3'),
-		array('5', '110', '90', 'KRB 5.jpg', '3'),
-		array('6', '110', '90', 'KRB 6.jpg', '3'),
-		array('7', '110', '90', 'KRB 7.jpg', '3'),
-		array('8', '110', '90', 'KRB 8.jpg', '3'),
-		array('XXL', '110', '90', 'KRB XXL.jpg', '3'),
-		array('Galaxy Golden Sella', '110', '90', '13_2.jpg', '4'),
+		array('Feast Rozzana', '395', '270', 'IG-FZ.png', '1'),
+		array('Mini Dubar', '22', '123', 'IG-MD.jpg', '1'),
+		array('Mini Mogra', '50', '44', 'IG-MM.jpg', '1'),
+		array('Mini Mogra II', '70', '50', 'IG-MM2.jpg', '1'),
+		array('Mogra', '1211', '123', 'IG-M.png', '1'),
+		array('Tibar', '110', '90', 'IG-T.png', '1'),
+		array('Dubar', '110', '90', 'IG-D.png', '1'),
+		array('Mahak', '110', '90', 'P-Mahak.jpg', '2'),
+		array('Tasty', '110', '90', 'P-Tasty.jpg', '2'),
+		array('Khana Khazana', '110', '90', 'P-Khana-Khazana.jpg', '2'),
+		array('Royal', '110', '90', 'P-Royal.jpg', '2'),
+		array('Daily', '110', '90', '3_6.jpg', '2'),
+		array('1', '110', '90', 'KRB-1.jpg', '3'),
+		array('2', '110', '90', 'KRB-2.jpg', '3'),
+		array('3', '110', '90', 'KRB-3.jpg', '3'),
+		array('4', '110', '90', 'KRB-4.jpg', '3'),
+		array('5', '110', '90', 'KRB-5.jpg', '3'),
+		array('6', '110', '90', 'KRB-6.jpg', '3'),
+		array('7', '110', '90', 'KRB-7.jpg', '3'),
+		array('8', '110', '90', 'KRB-8.jpg', '3'),
+		array('XXL', '110', '90', 'KRB-XXL.jpg', '3'),
+		array('Galaxy Golden Sella', '110', '90', 'Galaxy-golden-sella.jpg', '4'),
 		array('Golden Sella Double Chabi', '110', '90', '13_2.jpg', '4'),
-		array('Premium', '110', '90', 'Delhi Pasand Premium.jpg', '5'),
-		array('Super', '110', '90', 'Delhi Pasand Super.jpg', '5'),
-		array('Light', '110', '90', 'Delhi Pasand Light.jpg', '5'),
-		array('Regular', '110', '90', 'Delhi Pasand Regular.jpg', '5'),
-		array('Easy', '110', '90', 'Delhi Pasand Easy.jpg', '5'),
-		array('Daily', '110', '90', 'Delhi Pasand Daily.jpg', '5'),
-		array('Moong Dhuli', '110', '90', '13_2.jpg', '6'),
-		array('Moong Sabut', '110', '90', '13_2.jpg', '6'),
-		array('Moong Chilka', '110', '90', '13_2.jpg', '5'),
-		array('Udad Dhuli', '110', '90', '13_2.jpg', '5'),
-		array('Udad Sabut', '110', '90', '13_2.jpg', '5'),
-		array('Udad Chilka', '110', '90', '13_2.jpg', '5'),
-		array('Arhar', '110', '90', '13_2.jpg', '5'),
-		array('Kali Masoor', '110', '90', '13_2.jpg', '5'),
-		array('Lal Masoor(Malka)', '110', '90', '13_2.jpg', '5'),
-		array('Kala Chana', '110', '90', '13_2.jpg', '5'),
-		array('Chane ki Dal', '110', '90', '13_2.jpg', '5'),
-		array('White chana', '110', '90', '13_2.jpg', '5'),
-		array('Lobhiya', '110', '90', '13_2.jpg', '5'),
-		array('Safed Matar', '110', '90', '13_2.jpg', '5'),
-		array('Rajma', '110', '90', '13_2.jpg', '5'),
+		array('Premium', '110', '90', 'DP-Premium.jpg', '5'),
+		array('Super', '110', '90', 'DP-Super.jpg', '5'),
+		array('Light', '110', '90', 'DP-Light.jpg', '5'),
+		array('Regular', '110', '90', 'DP-Regular.jpg', '5'),
+		array('Easy', '110', '90', 'DP-Easy.jpg', '5'),
+		array('Daily', '110', '90', 'DP-DAILY1.jpg', '5'),
+		array('Moong Dhuli', '85', '72', 'moong-dhuli.jpg', '6'),
+		array('Moong Sabut', '85', '72', 'moong-sabut.jpg', '6'),
+		array('Moong Chilka', '85', '72', 'moong-chilka.jpg', '6'),
+		array('Urad Dhuli', '110', '100', 'urad-dhuli-dal.jpg', '6'),
+		array('Urad Sabut', '110', '100', 'urad-sabut.jpg', '6'),
+		array('Udad Chilka', '110', '100', 'urad-chilka.jpg', '6'),
+		array('Arhar', '110', '90', 'Arhar-Dal.jpg', '6'),
+		array('Kaali Masoor', '80', '67', 'kaali-masoor.jpg', '6'),
+		array('Lal Masoor(Malka)', '80', '67', 'masoor-dal.jpg', '6'),
+		array('Kala Chana', '120', '100', 'kala-chana.jpg', '6'),
+		array('Chane ki Dal', '120', '102', 'chana-dal.jpg', '6'),
+		array('White chana', '160', '140', 'white-chana.jpg', '6'),
+		array('White Lobia', '95', '85', 'lobia-dal.jpg', '6'),
+		array('Safed Matar', '55', '48', 'white-peas.jpg', '6'),
+		array('Rajma Chitra', '125', '108', 'Rajma-chitra.jpg', '6'),
+		array('Moong Dhuli', '85', '72', 'moong-dhuli.jpg', '7'),
+		array('Moong Sabut', '85', '72', 'moong-sabut.jpg', '7'),
+		array('Moong Chilka', '85', '72', 'moong-chilka.jpg', '7'),
+		array('Urad Dhuli', '110', '100', 'urad-dhuli-dal.jpg', '7'),
+		array('Urad Sabut', '110', '100', 'urad-sabut.jpg', '7'),
+		array('Udad Chilka', '110', '100', 'urad-chilka.jpg', '7'),
+		array('Arhar', '110', '90', 'Arhar-Dal.jpg', '7'),
+		array('Kaali Masoor', '80', '67', 'kaali-masoor.jpg', '7'),
+		array('Lal Masoor(Malka)', '80', '67', 'masoor-dal.jpg', '7'),
+		array('Kala Chana', '120', '100', 'kala-chana.jpg', '7'),
+		array('Chane ki Dal', '120', '102', 'chana-dal.jpg', '7'),
+		array('White chana', '160', '140', 'white-chana.jpg', '7'),
+		array('White Lobia', '95', '85', 'lobia-dal.jpg', '7'),
+		array('Safed Matar', '55', '48', 'white-peas.jpg', '7'),
+		array('Rajma Chitra', '125', '108', 'Rajma-chitra.jpg', '7'),
 		); 
 
 	$featured_product = array('3', '2', '4', '1', '7');
@@ -60,7 +75,7 @@
 
 	if($_POST['contact_form']){
 
-		$to = "almorarohitsharma@gmail.com";
+		$to = "sastachawal@gmail.com";
 		$subject = $_POST['contact_subject'];
 		$txt = $_POST['contact_name'] . '
 
@@ -77,7 +92,7 @@
 
 	if(isset($_POST['checkout'])){
 
-			$to = "almorarohitsharma@gmail.com";
+			$to = "sastachawal@gmail.com";
 			$subject = "Enquiry Alert";
 
 			$i = 0;
@@ -232,7 +247,7 @@
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-4">
 								<div class="logo">
-									<a href="index.php"><img src="img/logo/logo.png" alt=""></a>
+									<a href="index.php"><img src="img/logo/Logo5.png" alt=""></a>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-4">
@@ -321,7 +336,7 @@
 												</li>
 											<li></li>
 											<li></li>
-											<li><a href="about-us.php">About Us</a></li>
+											<li><a href="offers.php">Offers</a></li>
 											<li><a href="contact-us.php">Contact us</a></li>
 											<li></li>
 										</ul>
@@ -366,7 +381,7 @@
 												</li>
 											<li></li>
 											<li></li>
-											<li><a href="about-us.php">About Us</a></li>
+											<li><a href="about-us.php">about us</a></li>
 											<li><a href="contact-us.php">Contact us</a></li>
 											<li></li>								
 									</ul>

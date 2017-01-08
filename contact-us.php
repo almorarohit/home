@@ -26,15 +26,15 @@
 									<ul>
 										<li>
 											<i class="fa fa-map-marker"></i> <strong>Address</strong>
-											DP-229, 3rd FLOOR,PITAMPURA, NEW DELHI-110034
+											VP-161 A,PITAMPURA, NEW DELHI-110034
 										</li>
 										<li>
 											<i class="fa fa-envelope"></i> <strong>Phone</strong>
-											(+91)8860486224
+											+91-7838243299, +91-9555439342
 										</li>
 										<li>
 											<i class="fa fa-mobile"></i> <strong>Email</strong>
-											<a href="contact-us.html#">admin@bootexperts.com</a>
+											<a href="contact-us.html#">sastachawal@gmail.com</a>
 										</li>
 									</ul>
 								</div>

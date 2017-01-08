@@ -57,7 +57,7 @@
 									</div>
 									<p class="availability in-stock">Availability: <span>In stock</span></p>
 									<div class="product-reveiw">
-										<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Class aptent taciti...</p>
+										<p>India Gate Basmati Rice is a product from the house of world's largest rice millers KRBL Ltd. KRBL has a history of 120 years of rice production and have combined modern day crop practice with traditional farmer's experience in basmati rice crop.</p>
 									</div>
 									<div class="add-to-cart cart-sin-product">
 										<div class="quick-add-to-cart">
@@ -97,7 +97,7 @@
 							<div class="product-description-tab custom-tab">
 								<!-- tab bar -->
 								<ul class="nav nav-tabs" role="tablist">
-									<li class="active"><a href="single-product.html#product-des" data-toggle="tab">Product Description</a></li>
+									<li class="active"><a href="single-product.html#product-des" data-toggle="tab">Suggestions</a></li>
 								</ul>
 								<!-- Tab Content -->
 								<div class="tab-content">

@@ -9,11 +9,11 @@
                             <!-- single-footer-service start -->
                             <div class="single-footer-service">
                                 <div class="footer-service-icon">
-                                    <img class="box-icon" src="img/icons/ft-img1.png" alt="">
+                                    <img class="box-icon" src="img/icons/truck.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
-                                    <h2>free shipping upto 10km</h2>
-                                    <p>On order over $150 - 7 days a week</p>
+                                    <h2>free shipping upto 7km</h2>
+                                    <p>shipping charges over 7km</p>
                                 </div>
                             </div>
                             <!-- single-footer-service end -->
@@ -26,7 +26,7 @@
                                 </div>
                                 <div class="footer-service-text">
                                     <h2>24/7 custome r service</h2>
-                                    <p>Call us 24/7 at 000 - 123 - 456</p>
+                                    <p>Call us 24/7 at +91-7838243299, +91-9555439342</p>
                                 </div>
                             </div>
                             <!-- single-footer-service end -->
@@ -35,11 +35,11 @@
                             <!-- single-footer-service start -->
                             <div class="single-footer-service">
                                 <div class="footer-service-icon">
-                                    <img class="box-icon" src="img/icons/ft-img3.png" alt="">
+                                    <img class="box-icon" src="img/icons/cancel.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
-                                    <h2>money back guaratee!</h2>
-                                    <p>Send within 30 days</p>
+                                    <h2>cancellation</h2>
+                                    <p>cancellation within 4 hrs</p>
                                 </div>
                             </div>
                             <!-- single-footer-service end -->
@@ -59,11 +59,11 @@
                             <div class="middle-footer-text">
                                 <div class="footer-logo">
                                     <a href="index.html#">
-                                        <img src="img/logo/logo-footer.png" alt="">
+                                        <img src="img/logo/logo4.png" alt="">
                                     </a>
                                 </div>
                                 <div class="middle-text">
-                                    <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. .</p>
+                                    <p>HOW U DOING? .</p>
                                     <ul class="footer-icon">
                                         <li>
                                             <a href="index.html#">
@@ -97,11 +97,11 @@
                                 <div class="footer-address">
                                     <ul>
                                         <li>
-                                            <i class="fa fa-map-marker"> </i>Address : DP-229, 3rd FLOOR, PITAMPURA, NEW DELHI-110034</li>
+                                            <i class="fa fa-map-marker"> </i>Address : VP-161 A, PITAMPURA, NEW DELHI-110034</li>
                                         <li>
-                                            <i class="fa fa-phone"> </i> 8860486224 </li>
+                                            <i class="fa fa-phone"> </i> +91-7838243299, +91-9555439342 </li>
                                         <li>
-                                            <i class="fa fa-envelope-o"> </i> Email: almorarohitsharma@gmail.com</li>
+                                            <i class="fa fa-envelope-o"> </i> Email: sastachawal@gmail.com</li>
                                     </ul>
                                 </div>
                             </div>
@@ -120,33 +120,10 @@
                                             <a href="index.html#">Contact Us </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">News </a>
+                                            <a href="index.html#">Terms and Conditions</a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Store</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- middle-footer-text end-->
-                        </div>
-                        <div class="col-lg-2 col-md-2 hidden-sm col-xs-12">
-                            <!-- middle-footer-text start-->
-                            <div class="middle-footer-text">
-                                <h3>collections</h3>
-                                <div class="footer-menu">
-                                    <ul>
-                                        <li>
-                                            <a href="index.html#">Living Room</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#">Bathroom</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#">Kitchen</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#">Bed Room</a>
+                                            <a href="index.html#">FAQs</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -156,20 +133,43 @@
                         <div class="col-lg-2 col-md-2 hidden-sm col-xs-12">
                             <!-- middle-footer-text start-->
                             <div class="middle-footer-text">
-                                <h3>my account</h3>
+                                <h3></h3>
                                 <div class="footer-menu">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">My Account</a>
+                                            <a href="index.html#"></a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Order History</a>
+                                            <a href="index.html#"></a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Wish List</a>
+                                            <a href="index.html#"></a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">News Letter</a>
+                                            <a href="index.html#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- middle-footer-text end-->
+                        </div>
+                        <div class="col-lg-2 col-md-2 hidden-sm col-xs-12">
+                            <!-- middle-footer-text start-->
+                            <div class="middle-footer-text">
+                                <h3></h3>
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html#"></a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#"></a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#"></a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#"></a>
                                         </li>
                                     </ul>
                                 </div>
