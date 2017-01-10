@@ -123,6 +123,16 @@
 				$txt = $txt . $n . $_POST['email'];				
 			}
 
+			if(!empty($_POST['address'])){
+				
+				$txt = $txt . $n . $_POST['address'];				
+			}
+
+			if(!empty($_POST['area'])){
+				
+				$txt = $txt . $n . $_POST['area'];				
+			}
+
 			$headers = "From: webmaster@example.com";
 
 			mail($to,$subject,$txt,$headers);
@@ -417,13 +427,38 @@
     <label for="exampleInputPassword1">Contact Number</label>
     <input type="text" class="form-control" name="contact" placeholder="contact" required="">
   </div>
+ <div class="form-group">
+    <label for="exampleInputPassword1">Address</label>
+    <textarea class="form-control" name="address" placeholder="Full address"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Area</label>
+	<select class="form-control" name="area" id="area" onchange="change()">
+		<option>Pitampura</option>
+		<option>Shalimar bagh</option>
+		<option>Rohini</option>
+		<option>Other</option>
+	</select>
+  </div>
+  <div class="form-group" id="charges" style="display: none">
+    <label style="color: red">Shipping charges will apply</label>
+  </div>
 
       </div>
       <div class="modal-footer">
-
         	<button type="submit" name="checkout" class="btn btn-primary">Checkout</button>
         </form>
       </div>
     </div>
   </div>
 </div>
+<script>
+	function change(){
+		var val = document.getElementById('area').value;
+		if(val == 'Other'){
+			document.getElementById('charges').style.display = 'block';
+		}else{
+			document.getElementById('charges').style.display = 'none';
+		}
+	}
+</script>
