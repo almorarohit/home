@@ -59,7 +59,7 @@
                             <div class="middle-footer-text">
                                 <div class="footer-logo">
                                     <a href="index.html#">
-                                        <img src="img/logo/logo4.png" alt="">
+                                        <img src="img/logo/logo6.png" alt="">
                                     </a>
                                 </div>
                                 <div class="middle-text">
@@ -120,10 +120,10 @@
                                             <a href="index.html#">Contact Us </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Terms and Conditions</a>
+                                            <a href="terms&conditions.php">Terms and Conditions</a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">FAQs</a>
+                                            <a href="faqs.php">FAQs</a>
                                         </li>
                                     </ul>
                                 </div>

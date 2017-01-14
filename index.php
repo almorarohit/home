@@ -83,7 +83,17 @@
 					</div>
 				</div>
 			</div>
+
+<!-- 		<div style="height:400px;width:200px;border:solid 1px red;margin-left:100px;float:left;position:relative;bottom:10px;">
+			
 		</div>
-		<!-- featured-product-area end -->
+	
+		<div style="height:400px;width:200px;border:solid 1px red;margin-left:100px;float:left;position:relative;bottom:10px;">
+			
+		</div>
+
+		</div> -->
 		
+		<!-- featured-product-area end -->
+
 		<?php include 'footer.php'; ?>

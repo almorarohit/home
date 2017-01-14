@@ -52,7 +52,7 @@
 		array('White Lobia', '95', '85', 'lobia-dal.jpg', '6'),
 		array('Safed Matar', '55', '48', 'white-peas.jpg', '6'),
 		array('Rajma Chitra', '125', '108', 'Rajma-chitra.jpg', '6'),
-		array('Moong Dhuli', '85', '72', 'moong-dhuli.jpg', '7'),
+		array('Moong Dhuli', '85', '72', 'MD.png', '7'),
 		array('Moong Sabut', '85', '72', 'moong-sabut.jpg', '7'),
 		array('Moong Chilka', '85', '72', 'moong-chilka.jpg', '7'),
 		array('Urad Dhuli', '110', '100', 'urad-dhuli-dal.jpg', '7'),
@@ -257,7 +257,7 @@
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-4">
 								<div class="logo">
-									<a href="index.php"><img src="img/logo/Logo5.png" alt=""></a>
+									<a href="index.php"><img src="img/logo/logo7.png" alt=""></a>
 								</div>
 							</div>
 							<div class="col-lg-4 col-md-4 col-sm-4">
@@ -346,7 +346,7 @@
 												</li>
 											<li></li>
 											<li></li>
-											<li><a href="offers.php">Offers</a></li>
+											<li><a href="about-us.php">About us</a></li>
 											<li><a href="contact-us.php">Contact us</a></li>
 											<li></li>
 										</ul>
@@ -436,12 +436,15 @@
 	<select class="form-control" name="area" id="area" onchange="change()">
 		<option>Pitampura</option>
 		<option>Shalimar bagh</option>
+		<option>Wazirpur</option>
+		<option>Ashokvihar</option>
+		<option></option>
 		<option>Rohini</option>
 		<option>Other</option>
 	</select>
   </div>
   <div class="form-group" id="charges" style="display: none">
-    <label style="color: red">Shipping charges will apply</label>
+    <label style="color: red">CAUTION: Shipping charges Rs.30 will apply</label>
   </div>
 
       </div>

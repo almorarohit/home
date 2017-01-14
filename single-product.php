@@ -73,7 +73,7 @@
 													</div>	
 													<div class="box-icon button-minus">
 														<input type="button" class="qty-decrease" onclick="var qty_el = document.getElementById('qty'); var qty = qty_el.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 0 ) qty_el.value--;return false;" value="-">
-													</div>
+													</div> 
 												</div>
 												<div class="add-to-cart">
 													<button type="submit">Add to cart</button>
