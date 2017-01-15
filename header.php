@@ -8,13 +8,13 @@
 	//tell which brands are of dal from $brands (remember array starts from 0)
 
 	$all_products = array(
-		array('Feast Rozzana', '395', '270', 'IG-FZ.png', '1'),
-		array('Mini Dubar', array("1kg" => array('100', '150'), "5kg" => array('400', '450')), 'IG-MD.jpg', '1'),
-		array('Mini Mogra', '50', '44', 'IG-MM.jpg', '1'),
-		array('Mini Mogra II', '70', '50', 'IG-MM2.jpg', '1'),
-		array('Mogra', '1211', '123', 'IG-M.png', '1'),
-		array('Tibar', '110', '90', 'IG-T.png', '1'),
-		array('Dubar', '110', '90', 'IG-D.png', '1'),
+		array('Feast Rozzana',array("1kg" => array('54', '79'),"5kg" => array('270', '395'),"10kg" => array('540', '790'),"25kg" => array('1350', '1975')) , 'IG-FZ.png', '1',1),
+		array('Mini Dubar', array("5kg" => array('215', '250'), "10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'IG-MD.jpg', '1'),
+		array('Mini Mogra', array("10kg" => array('440', '500'), "25kg" => array('1100', '1250')), 'IG-MM.jpg', '1'),
+		array('Mini Mogra II', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'IG-MM2.jpg', '1',1),
+		array('Mogra', array("5kg" => array('215', '250'), "25kg" => array('1075', '1250')), 'IG-M.png', '1'),
+		array('Tibar', array("1kg" => array('215', '250'), "5kg" => array('215', '250'), "10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'IG-T.png', '1'),
+		array('Dubar', array("1kg" => array('215', '250'), "5kg" => array('215', '250'), "10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'IG-D.png', '1'),
 		array('Mahak', '110', '90', 'P-Mahak.jpg', '2'),
 		array('Tasty', '110', '90', 'P-Tasty.jpg', '2'),
 		array('Khana Khazana', '110', '90', 'P-Khana-Khazana.jpg', '2'),
