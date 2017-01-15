@@ -1,4 +1,7 @@
 <?php include 'header.php';?>
+
+	<div class="container">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
              <h1>FAQs</h1><br>
              <p>Kindly check the FAQ below if you are not very familiar with the functioning of this website. If your query is of urgent nature and is different from the set of questions then do write to us at sastachawal@gmail.com or call us on +91-9899594807 between 7 am & 10 pm on all days to get our immediate help.</p><br>
              <h2>What are the modes of payment?</h2>
@@ -18,5 +21,7 @@
              <h2>Do you do same day delivery?</h2>
              <p>We do same day delivery provided you place your order before 11 am on the day you want delivery.</p><br>
              <h2></h2>
+        </div>
+    </div>
 
 <?php include 'footer.php';?>
