@@ -74,7 +74,7 @@
 										<?php foreach($all_products[$fp][1] as $key=>$value){?>
 											<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
 										<?php break;}?>
-										<select class="form-control kgs" name="kgs" style="width: 50px; margin-left: 60px;">
+										<select class="form-control kgs<?php echo $fp;?>" name="kgs" style="width: 50px; margin-left: 60px;" onchange="select(<?php echo $fp;?>)">
 											<?php foreach($all_products[$fp][1] as $key=>$value){?>
 												<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
 											<?php }?>

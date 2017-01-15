@@ -225,16 +225,27 @@
         dis();
     <?php }?>
 
-    $('.kgs').on('change', function(){
+    function select(ctr){
+        var val = $('.kgs' + ctr + ' :selected').attr('data-value');
+
+        var res = val.split(",");
+
+        $('.kgs' + ctr + ' :selected').parent().siblings(".price").attr('value', res[1]);
+        $('.kgs' + ctr + ' :selected').parent().parent().parent().parent().find("span.old-price").html('₹'+res[0]);
+        $('.kgs' + ctr + ' :selected').parent().parent().parent().parent().find("span.new-price").html('₹'+res[1]);
+
+    }
+
+    function select_single(){
         var val = $('.kgs :selected').attr('data-value');
 
         var res = val.split(",");
 
-        $(".kgs").siblings(".price").attr('value', res[1]);
-        $('.kgs').parent().parent().parent().find("span.old-price").html('₹'+res[0]);
-        $('.kgs').parent().parent().parent().find("span.new-price").html('₹'+res[1]);
+        $('.price').attr('value', res[1]);
+        $('.old-price').html('₹'+res[0]);
+        $('.new-price').html('₹'+res[1]);
 
-    });
+    }
 
 </script>
 </body>

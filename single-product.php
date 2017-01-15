@@ -24,7 +24,7 @@
 											<div class="tab-pane active" id="p-view-1">
 												<div class="simpleLens-big-image-container">
 													
-														<img src="img/new-product/<?php echo $all_products[$id][3];?>" class="simpleLens-big-image" alt="productd">
+														<img src="img/new-product/<?php echo $all_products[$id][2];?>" class="simpleLens-big-image" alt="productd">
 
 												</div>
 											</div>
@@ -52,8 +52,10 @@
 										</p>
 									</div>
 									<div class="price-box">
-										<span class="old-price">₹<?php echo $all_products[$id][1];?></span>
-										<span class="new-price">₹<?php echo $all_products[$id][2];?></span>
+									<?php foreach($all_products[$id][1] as $key=>$value){?>
+										<span class="old-price">₹<?php echo $value[0]?></span>
+										<span class="new-price">₹<?php echo $value[1]?></span>
+									<?php break;}?>
 									</div>
 									<p class="availability in-stock">Availability: <span>In stock</span></p>
 									<div class="product-reveiw">
@@ -64,7 +66,14 @@
 											<form method="post" class="cart">
 												<div class="qty-button"> 	
 													<input type="text" name="name" value="<?php echo $all_products[$id][0]?>" hidden="">
-													<input type="text" name="price" value="<?php echo $all_products[$id][2]?>" hidden="">
+													<?php foreach($all_products[$id][1] as $key=>$value){?>
+														<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
+													<?php break;}?>
+													<select class="form-control kgs" name="kgs" style="width: 50px; margin-left: 60px;" onchange="select_single()">
+														<?php foreach($all_products[$id][1] as $key=>$value){?>
+															<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
+														<?php }?>
+													</select>
 													
 													<input type="text" class="input-text qty" title="Qty" value="1" id="qty" name="quantity">
 												
