@@ -69,13 +69,13 @@
 													<?php foreach($all_products[$id][1] as $key=>$value){?>
 														<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
 													<?php break;}?>
-													<select class="form-control kgs" name="kgs" style="width: 50px; margin-left: 60px;" onchange="select_single()">
+													<select class="form-control kgs" name="kgs" style="width: 70px; position: absolute;" onchange="select_single()">
 														<?php foreach($all_products[$id][1] as $key=>$value){?>
 															<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
 														<?php }?>
 													</select>
 													
-													<input type="text" class="input-text qty" title="Qty" value="1" id="qty" name="quantity">
+													<input type="text" class="input-text qty" title="Qty" value="1" id="qty" name="quantity" style="margin-left: 100px">
 												
 													<div class="box-icon button-plus"> 
 														<input type="button" class="qty-increase " onclick="var qty_el = document.getElementById('qty'); var qty = qty_el.value; if( !isNaN( qty )) qty_el.value++;return false;" value="+">
