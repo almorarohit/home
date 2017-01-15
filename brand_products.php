@@ -41,7 +41,7 @@
 										</ul>
 									</div>
 									<div class="product-name">
-										<h3><a href="/single-product.php?id=<?php echo $i;?>"><?php echo $fp[0]?></a></h3>
+										<h3><a href="/single-product.php?id=<?php echo $fp;?>"><?php echo $fp[0]?></a></h3>
 									</div>
 									<div class="price-box">
 									<?php foreach($fp[1] as $key=>$value){?>
@@ -62,7 +62,7 @@
 										<?php foreach($fp[1] as $key=>$value){?>
 											<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
 										<?php break;}?>
-										<select class="form-control kgs" name="kgs" style="width: 50px; margin-left: 60px;">
+										<select class="form-control kgs<?php echo $i;?>" name="kgs" style="width: 50px; margin-left: 60px;" onchange="select(<?php echo $i;?>)">
 											<?php foreach($fp[1] as $key=>$value){?>
 												<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
 											<?php }?>
@@ -72,6 +72,7 @@
 									</form>
 								</div>
 							</div>
+						</div>
 						<?php }
 						$i++;
 							}?>
