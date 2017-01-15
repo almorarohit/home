@@ -37,7 +37,6 @@
 					<div class="feature-product product-carousel derection-key">
 						<!-- single-product start -->
 						<?php 
-							$i = 1;
 
 							foreach ($featured_product as $fp) {?>
 
@@ -54,31 +53,40 @@
 										</ul>
 									</div>
 									<div class="product-name">
-										<h3><a href="/single-product.php?id=<?php echo $i;?>"><?php echo $all_products[$fp][0]?></a></h3>
+										<h3><a href="/single-product.php?id=<?php echo $fp;?>"><?php echo $all_products[$fp][0]?></a></h3>
 									</div>
 									<div class="price-box">
-										<span class="old-price">₹<?php echo $all_products[$fp][1]?></span>
-										<span class="new-price">₹<?php echo $all_products[$fp][2]?></span>
+									<?php foreach($all_products[$fp][1] as $key=>$value){?>
+										<span class="old-price">₹<?php echo $value[0]?></span>
+										<span class="new-price">₹<?php echo $value[1]?></span>
+									<?php break;}?>
 									</div>
 								</div>
 								<div class="product-img">
-									<span class="sale-text">sale</span>
-									<a href="/single-product.php?id=<?php echo $i;?>">
-										<img class="primary-img" src="img/new-product/<?php echo $all_products[$fp][3];?>" alt="">
+									<?php  if(isset($all_products[$fp][4])){?><span class="sale-text">sale</span><?php } ?>
+									<a href="/single-product.php?id=<?php echo $fp;?>">
+										<img class="primary-img" src="img/new-product/<?php echo $all_products[$fp][2];?>" alt="">
 									</a>
 								</div>
 								<div class="add-to-cart">
 									<form method="post">
 										<input type="text" name="name" value="<?php echo $all_products[$fp][0]?>" hidden="">
-										<input type="text" name="price" value="<?php echo $all_products[$fp][2]?>" hidden="">
-										<input type="number" class="form-control" name="quantity" value="1" style="width:70px; margin-left: 80px;"><br>
+										<?php foreach($all_products[$fp][1] as $key=>$value){?>
+											<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
+										<?php break;}?>
+										<select class="form-control kgs" name="kgs" style="width: 50px; margin-left: 60px;">
+											<?php foreach($all_products[$fp][1] as $key=>$value){?>
+												<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
+											<?php }?>
+										</select>
+										<input type="number" class="form-control" name="quantity" value="1" style="width:70px; margin-left: 130px; margin-top: -34px;"><br>
 										<button type="submit" class="btn btn-link" style="padding: 0; color: #b0b0b0"><a>Add To Cart</a></button>
 									</form>
 								</div>
 							</div>
 						</div>
 
-						<?php $i++;
+						<?php
 							}?>
 					</div>
 				</div>

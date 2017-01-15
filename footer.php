@@ -205,6 +205,38 @@
 <script src="js/plugins.js"></script>
 <!-- main js -->
 <script src="js/main.js"></script>
+
+<script>
+    function change(){
+        var val = document.getElementById('area').value;
+        if(val == 'Other'){
+            document.getElementById('charges').style.display = 'block';
+        }else{
+            document.getElementById('charges').style.display = 'none';
+        }
+    }
+    function dis(){
+        $("#checkout_form :input").prop('readonly', true);
+        $("#area").prop('disabled', true);
+    }
+
+    <?php if($total <300){?>
+
+        dis();
+    <?php }?>
+
+    $('.kgs').on('change', function(){
+        var val = $('.kgs :selected').attr('data-value');
+
+        var res = val.split(",");
+
+        $(".kgs").siblings(".price").attr('value', res[1]);
+        $('.kgs').parent().parent().parent().find("span.old-price").html('₹'+res[0]);
+        $('.kgs').parent().parent().parent().find("span.new-price").html('₹'+res[1]);
+
+    });
+
+</script>
 </body>
 
 </html>

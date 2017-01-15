@@ -24,7 +24,7 @@
 											<div class="tab-pane active" id="p-view-1">
 												<div class="simpleLens-big-image-container">
 													
-														<img src="img/product/<?php echo $all_products[$id][3];?>" class="simpleLens-big-image" alt="productd">
+														<img src="img/new-product/<?php echo $all_products[$id][3];?>" class="simpleLens-big-image" alt="productd">
 
 												</div>
 											</div>
@@ -63,9 +63,9 @@
 										<div class="quick-add-to-cart">
 											<form method="post" class="cart">
 												<div class="qty-button"> 	
-													<input type="text" name="name" value="<?php echo $featured_product[$id][0]?>" hidden="">
-													<input type="text" name="price" value="<?php echo $featured_product[$id][2]?>" hidden="">
-										
+													<input type="text" name="name" value="<?php echo $all_products[$id][0]?>" hidden="">
+													<input type="text" name="price" value="<?php echo $all_products[$id][2]?>" hidden="">
+													
 													<input type="text" class="input-text qty" title="Qty" value="1" id="qty" name="quantity">
 												
 													<div class="box-icon button-plus"> 
@@ -90,26 +90,7 @@
 			</div>
 			<!-- End Single details Area -->	
 			<!-- Single Description Tab -->
-			<div class="single-product-description">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="product-description-tab custom-tab">
-								<!-- tab bar -->
-								<ul class="nav nav-tabs" role="tablist">
-									<li class="active"><a href="single-product.html#product-des" data-toggle="tab">Suggestions</a></li>
-								</ul>
-								<!-- Tab Content -->
-								<div class="tab-content">
-									<div class="tab-pane active" id="product-des">
-										<p> </p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 			<!-- End Single Description Tab -->
 
 			<!-- single-page-feature end -->

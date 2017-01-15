@@ -9,7 +9,7 @@
 
 	$all_products = array(
 		array('Feast Rozzana', '395', '270', 'IG-FZ.png', '1'),
-		array('Mini Dubar', '22', '123', 'IG-MD.jpg', '1'),
+		array('Mini Dubar', array("1kg" => array('100', '150'), "5kg" => array('400', '450')), 'IG-MD.jpg', '1'),
 		array('Mini Mogra', '50', '44', 'IG-MM.jpg', '1'),
 		array('Mini Mogra II', '70', '50', 'IG-MM2.jpg', '1'),
 		array('Mogra', '1211', '123', 'IG-M.png', '1'),
@@ -71,7 +71,7 @@
 
 	$featured_product = array('3', '2', '4', '1', '7');
 
-	//name, old, new, image name, brand id(1,2,3,4)
+	//name, array, image name, brand id(1,2,3,4),1(if in sale)
 
 	if($_POST['contact_form']){
 
@@ -188,9 +188,9 @@
 
 			$i = 0;
 
-			foreach ($_SESSION['name'] as $name) {
+			foreach ($_SESSION['name'] as $key => $name) {
 
-				if($name == $_POST['name']){
+				if($name == $_POST['name'] . $_POST['kgs']){
 
 					$_SESSION['quantity'][$i]+= $_POST['quantity'];
 					$flag = 1;
@@ -201,7 +201,7 @@
 
 			if($flag == 0){
 
-				array_push($_SESSION['name'], $_POST['name']);
+				array_push($_SESSION['name'], $_POST['name'] . $_POST['kgs']);
 				array_push($_SESSION['quantity'], $_POST['quantity']);
 				array_push($_SESSION['price'], $_POST['price']);
 
@@ -414,26 +414,31 @@
         <h4 class="modal-title" id="myModalLabel">Finalize It</h4>
       </div>
       <div class="modal-body">
-        <form method="post">
+        <form method="post" id="checkout_form">
+        <?php if($total <300){?>
+        <div class="form-group" id="charges">
+		    <label style="color: red">Minimum transaction should be of Rs 300</label>
+		  </div>
+		  <?php }?>
        	<div class="form-group">
-    <label for="exampleInputEmail1">Name</label>
-    <input type="text" class="form-control" name="cname" placeholder="name" required="">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" name="email" placeholder="Email" required="">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Contact Number</label>
-    <input type="text" class="form-control" name="contact" placeholder="contact" required="">
-  </div>
- <div class="form-group">
-    <label for="exampleInputPassword1">Address</label>
-    <textarea class="form-control" name="address" placeholder="Full address"></textarea>
-  </div>
-  <div class="form-group">
+	    <label for="exampleInputEmail1">Name</label>
+	    <input type="text" class="form-control" name="cname" placeholder="name" required="">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Email address</label>
+	    <input type="email" class="form-control" name="email" placeholder="Email" required="">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Contact Number</label>
+	    <input type="text" class="form-control" name="contact" placeholder="contact" required="">
+	  </div>
+	 <div class="form-group">
+	    <label for="exampleInputPassword1">Address</label>
+	    <textarea class="form-control" name="address" placeholder="Full address"></textarea>
+	  </div>
+	  <div class="form-group">
     <label for="exampleInputPassword1">Area</label>
-	<select class="form-control" name="area" id="area" onchange="change()">
+	<select class="form-control" name="area" id="area" onchange="change()"> 
 		<option>Pitampura</option>
 		<option>Shalimar bagh</option>
 		<option>Wazirpur</option>
@@ -455,13 +460,3 @@
     </div>
   </div>
 </div>
-<script>
-	function change(){
-		var val = document.getElementById('area').value;
-		if(val == 'Other'){
-			document.getElementById('charges').style.display = 'block';
-		}else{
-			document.getElementById('charges').style.display = 'none';
-		}
-	}
-</script>
