@@ -26,7 +26,7 @@
 
 							foreach ($all_products as $fp) {
 
-								if($fp[3] == $id){?>
+								if($fp[4] == $id){?>
 
 						<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
 							<div class="single-product">
@@ -44,26 +44,26 @@
 										<h3><a href="/single-product.php?id=<?php echo $fp;?>"><?php echo $fp[0]?></a></h3>
 									</div>
 									<div class="price-box">
-									<?php foreach($fp[1] as $key=>$value){?>
+									<?php foreach($fp[2] as $key=>$value){?>
 										<span class="old-price">₹<?php echo $value[0]?></span>
 										<span class="new-price">₹<?php echo $value[1]?></span>
 									<?php break;}?>
 									</div>
 								</div>
 								<div class="product-img">
-									<?php  if(isset($fp[4])){?><span class="sale-text">sale</span><?php } ?>
+									<?php  if(isset($fp[5])){?><span class="sale-text">sale</span><?php } ?>
 									<a href="/single-product.php?id=<?php echo $fp;?>">
-										<img style="height:100%;" class="primary-img" src="img/new-product/<?php echo $fp[2];?>" alt="">
+										<img style="height:100%;" class="primary-img" src="img/new-product/<?php echo $fp[3];?>" alt="">
 									</a>
 								</div>
 								<div class="add-to-cart">
 									<form method="post">
 										<input type="text" name="name" value="<?php echo $fp[0]?>" hidden="">
-										<?php foreach($fp[1] as $key=>$value){?>
+										<?php foreach($fp[2] as $key=>$value){?>
 											<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
 										<?php break;}?>
 										<select class="form-control kgs<?php echo $i;?>" name="kgs" style="width: auto; margin-left: 50px;" onchange="select(<?php echo $i;?>)">
-											<?php foreach($fp[1] as $key=>$value){?>
+											<?php foreach($fp[2] as $key=>$value){?>
 												<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
 											<?php }?>
 										</select>

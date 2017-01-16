@@ -56,26 +56,26 @@
 										<h3><a href="/single-product.php?id=<?php echo $fp;?>"><?php echo $all_products[$fp][0]?></a></h3>
 									</div>
 									<div class="price-box">
-									<?php foreach($all_products[$fp][1] as $key=>$value){?>
+									<?php foreach($all_products[$fp][2] as $key=>$value){?>
 										<span class="old-price">₹<?php echo $value[0]?></span>
 										<span class="new-price">₹<?php echo $value[1]?></span>
 									<?php break;}?>
 									</div>
 								</div>
 								<div class="product-img">
-									<?php  if(isset($all_products[$fp][4])){?><span class="sale-text">sale</span><?php } ?>
+									<?php  if(isset($all_products[$fp][5])){?><span class="sale-text">sale</span><?php } ?>
 									<a href="/single-product.php?id=<?php echo $fp;?>">
-										<img class="primary-img" src="img/new-product/<?php echo $all_products[$fp][2];?>" alt="">
+										<img class="primary-img" src="img/new-product/<?php echo $all_products[$fp][3];?>" alt="">
 									</a>
 								</div>
 								<div class="add-to-cart">
 									<form method="post">
 										<input type="text" name="name" value="<?php echo $all_products[$fp][0]?>" hidden="">
-										<?php foreach($all_products[$fp][1] as $key=>$value){?>
+										<?php foreach($all_products[$fp][2] as $key=>$value){?>
 											<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
 										<?php break;}?>
 										<select class="form-control kgs<?php echo $fp;?>" name="kgs" style="width: auto; margin-left: 50px;" onchange="select(<?php echo $fp;?>)">
-											<?php foreach($all_products[$fp][1] as $key=>$value){?>
+											<?php foreach($all_products[$fp][2] as $key=>$value){?>
 												<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
 											<?php }?>
 										</select>

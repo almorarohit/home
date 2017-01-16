@@ -8,7 +8,7 @@
 	//tell which brands are of dal from $brands (remember array starts from 0)
 
 	$all_products = array(
-		array('Feast Rozzana',array("1kg" => array('80', '58'),"5kg" => array('395', '285'),"10kg" => array('790', '520'),"25kg" => array('1210', '1975')) , 'IG-FZ.png', '1',1),
+		array('Feast Rozzana','its very nice.',array("1kg" => array('80', '58'),"5kg" => array('395', '285'),"10kg" => array('790', '520'),"25kg" => array('1210', '1975')) , 'IG-FZ.png', '1',1),
 		array('Mini Dubar', array("5kg" => array('335', '225'), "10kg" => array('670', '425'), "25kg" => array('1675', '1100')), 'IG-MD.jpg', '1'),
 		array('Mini Mogra', array("10kg" => array('520', '340'), "25kg" => array('1300', '830')), 'IG-MM.jpg', '1'),
 		array('Mini Mogra II', array("10kg" => array('400', '265'), "25kg" => array('1000', '650')), 'IG-MM2.jpg', '1',1),
@@ -69,9 +69,9 @@
 		array('Rajma Chitra', '125', '108', 'Rajma-chitra.jpg', '7'),
 		); 
 
-	$featured_product = array('3', '2', '4', '1', '7');
+	$featured_product = array('0', '2', '4', '1', '7');
 
-	//name, array, image name, brand id(1,2,3,4),1(if in sale)
+	//name, description, array, image name, brand id(1,2,3,4),1(if in sale)
 
 	if($_POST['contact_form']){
 
