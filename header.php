@@ -15,28 +15,28 @@
 		array('Mogra', array("5kg" => array('215', '250'), "25kg" => array('1075', '1250')), 'IG-M.png', '1'),
 		array('Tibar', array("1kg" => array('215', '250'), "5kg" => array('215', '250'), "10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'IG-T.png', '1'),
 		array('Dubar', array("1kg" => array('215', '250'), "5kg" => array('215', '250'), "10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'IG-D.png', '1'),
-		array('Mahak', '110', '90', 'P-Mahak.jpg', '2'),
-		array('Tasty', '110', '90', 'P-Tasty.jpg', '2'),
-		array('Khana Khazana', '110', '90', 'P-Khana-Khazana.jpg', '2'),
-		array('Royal', '110', '90', 'P-Royal.jpg', '2'),
-		array('Daily', '110', '90', '3_6.jpg', '2'),
-		array('1', '110', '90', 'KRB-1.jpg', '3'),
-		array('2', '110', '90', 'KRB-2.jpg', '3'),
-		array('3', '110', '90', 'KRB-3.jpg', '3'),
-		array('4', '110', '90', 'KRB-4.jpg', '3'),
-		array('5', '110', '90', 'KRB-5.jpg', '3'),
-		array('6', '110', '90', 'KRB-6.jpg', '3'),
-		array('7', '110', '90', 'KRB-7.jpg', '3'),
-		array('8', '110', '90', 'KRB-8.jpg', '3'),
-		array('XXL', '110', '90', 'KRB-XXL.jpg', '3'),
-		array('Galaxy Golden Sella', '110', '90', 'Galaxy-golden-sella.jpg', '4'),
-		array('Golden Sella Double Chabi', '110', '90', '13_2.jpg', '4'),
-		array('Premium', '110', '90', 'DP-Premium.jpg', '5'),
-		array('Super', '110', '90', 'DP-Super.jpg', '5'),
-		array('Light', '110', '90', 'DP-Light.jpg', '5'),
-		array('Regular', '110', '90', 'DP-Regular.jpg', '5'),
-		array('Easy', '110', '90', 'DP-Easy.jpg', '5'),
-		array('Daily', '110', '90', 'DP-DAILY1.jpg', '5'),
+		array('Mahak', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'P-Mahak.jpg', '2'),
+		array('Tasty', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'P-Tasty.jpg', '2'),
+		array('Khana Khazana', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'P-Khana-Khazana.jpg', '2'),
+		array('Royal', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'P-Royal.jpg', '2'),
+		array('Daily', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), '3_6.jpg', '2'),
+		array('1', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-1.jpg', '3'),
+		array('2', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-2.jpg', '3'),
+		array('3', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-3.jpg', '3'),
+		array('4', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-4.jpg', '3'),
+		array('5', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-5.jpg', '3'),
+		array('6', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-6.jpg', '3'),
+		array('7', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-7.jpg', '3'),
+		array('8', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-8.jpg', '3'),
+		array('XXL', array("10kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'KRB-XXL.jpg', '3'),
+		array('Galaxy Golden Sella', array("25kg" => array('1075', '1250')), 'Galaxy-golden-sella.jpg', '4'),
+		array('Golden Sella Double Chabi', array("25kg" => array('1075', '1250')), '13_2.jpg', '4'),
+		array('Premium', array("5kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'DP-Premium.jpg', '5'),
+		array('Super', array("5kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'DP-Super.jpg', '5'),
+		array('Light', array("5kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'DP-Light.jpg', '5'),
+		array('Regular', array("5kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'DP-Regular.jpg', '5'),
+		array('Easy', array("5kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'DP-Easy.jpg', '5'),
+		array('Daily', array("5kg" => array('430', '500'), "25kg" => array('1075', '1250')), 'DP-DAILY1.jpg', '5'),
 		array('Moong Dhuli', '85', '72', 'moong-dhuli.jpg', '6'),
 		array('Moong Sabut', '85', '72', 'moong-sabut.jpg', '6'),
 		array('Moong Chilka', '85', '72', 'moong-chilka.jpg', '6'),
@@ -264,7 +264,7 @@
 								<div class="header-right">
 									<div class="header-right-link">
 										<!-- cart item start -->
-										<div class="cart-item">
+										<div class="cart-item" >
 											<div class="cart-item-title">
 												<a><img src="img/icons/card.png" alt="">
 													<span class="total-cart"><?php echo $_SESSION['count'];?></span>
@@ -275,7 +275,7 @@
 
 													if($_SESSION['count'] == 0){
 
-														echo "no items";
+														echo "CART EMPTY";
 													}else{
 														$i = 0;
 														$total = 0;
@@ -443,7 +443,6 @@
 		<option>Shalimar bagh</option>
 		<option>Wazirpur</option>
 		<option>Ashokvihar</option>
-		<option></option>
 		<option>Rohini</option>
 		<option>Other</option>
 	</select>

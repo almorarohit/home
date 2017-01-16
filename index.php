@@ -5,9 +5,9 @@
 			<!-- slider start -->
 			<div class="slider">
 				<div id="topSlider" class="nivoSlider nevo-slider">
-					<img src="img/slider/124.jpg" alt="main slider" title="#htmlcaption1"/>
-					<img src="img/slider/dal&pulses.jpg" alt="main slider" title="#htmlcaption2"/>
-					<img src="img/slider/indiagate.jpg" alt="main slider" title="#htmlcaption2"/>
+					<img style="height:100%;" src="img/slider/124.jpg" alt="main slider" title="#htmlcaption1"/>
+					<img style="height:100%;" src="img/slider/dal&pulses.jpg" alt="main slider" title="#htmlcaption2"/>
+					<img style="height:100%;" src="img/slider/indiagate.jpg" alt="main slider" title="#htmlcaption2"/>
 				</div>
 				<div id="htmlcaption1" class="nivo-html-caption slider-caption">
 					<div class="slider-progress"></div>
@@ -28,7 +28,7 @@
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="feature-headline section-heading text-center">
 							<h2>featured product</h2>
-							<p>Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+							<p></p>
 						</div>
 					</div>
 				</div>
@@ -74,7 +74,7 @@
 										<?php foreach($all_products[$fp][1] as $key=>$value){?>
 											<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
 										<?php break;}?>
-										<select class="form-control kgs<?php echo $fp;?>" name="kgs" style="width: 50px; margin-left: 60px;" onchange="select(<?php echo $fp;?>)">
+										<select class="form-control kgs<?php echo $fp;?>" name="kgs" style="width: auto; margin-left: 50px;" onchange="select(<?php echo $fp;?>)">
 											<?php foreach($all_products[$fp][1] as $key=>$value){?>
 												<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
 											<?php }?>

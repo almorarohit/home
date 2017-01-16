@@ -53,7 +53,7 @@
 								<div class="product-img">
 									<?php  if(isset($fp[4])){?><span class="sale-text">sale</span><?php } ?>
 									<a href="/single-product.php?id=<?php echo $fp;?>">
-										<img class="primary-img" src="img/new-product/<?php echo $fp[2];?>" alt="">
+										<img style="height:100%;" class="primary-img" src="img/new-product/<?php echo $fp[2];?>" alt="">
 									</a>
 								</div>
 								<div class="add-to-cart">
@@ -62,7 +62,7 @@
 										<?php foreach($fp[1] as $key=>$value){?>
 											<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
 										<?php break;}?>
-										<select class="form-control kgs<?php echo $i;?>" name="kgs" style="width: 50px; margin-left: 60px;" onchange="select(<?php echo $i;?>)">
+										<select class="form-control kgs<?php echo $i;?>" name="kgs" style="width: auto; margin-left: 50px;" onchange="select(<?php echo $i;?>)">
 											<?php foreach($fp[1] as $key=>$value){?>
 												<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
 											<?php }?>

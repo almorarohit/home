@@ -22,10 +22,10 @@
                             <!-- single-footer-service start -->
                             <div class="single-footer-service">
                                 <div class="footer-service-icon">
-                                    <img class="box-icon" src="img/icons/ft-img2.png" alt="">
+                                    <img class="box-icon" src="img/icons/ft-img_3.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
-                                    <h2>24/7 custome r service</h2>
+                                    <h2>24/7 customer service</h2>
                                     <p>Call us 24/7 at +91-7838243299, +91-9555439342</p>
                                 </div>
                             </div>
@@ -63,7 +63,6 @@
                                     </a>
                                 </div>
                                 <div class="middle-text">
-                                    <p>HOW U DOING? .</p>
                                     <ul class="footer-icon">
                                         <li>
                                             <a href="index.html#">
@@ -114,10 +113,10 @@
                                 <div class="footer-menu">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">About Us </a>
+                                            <a href="/about-us.php">About Us </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Contact Us </a>
+                                            <a href="/contact-us.php">Contact Us </a>
                                         </li>
                                         <li>
                                             <a href="terms&conditions.php">Terms and Conditions</a>

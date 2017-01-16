@@ -45,11 +45,11 @@
 											<li><i class="fa fa-star-o"></i></li>
 											<li><i class="fa fa-star-o"></i></li>
 										</ul>
-										<p class="rating-links">
+										<!-- <p class="rating-links">
 											<a href="single-product.html#">1 Review(s)</a>
 											<span class="separator">|</span>
 											<a href="single-product.html#" class="add-to-review">Add Your Review</a>
-										</p>
+										</p> -->
 									</div>
 									<div class="price-box">
 									<?php foreach($all_products[$id][1] as $key=>$value){?>
@@ -69,7 +69,7 @@
 													<?php foreach($all_products[$id][1] as $key=>$value){?>
 														<input type="text" class="price" name="price" value="<?php echo $value[1]?>" hidden="">
 													<?php break;}?>
-													<select class="form-control kgs" name="kgs" style="width: 70px; position: absolute;" onchange="select_single()">
+													<select class="form-control kgs" name="kgs" style="width: auto; position: absolute;" onchange="select_single()">
 														<?php foreach($all_products[$id][1] as $key=>$value){?>
 															<option value="<?php echo $key;?>" data-value="<?php echo $value[0] . ',' . $value[1];?>"><?php echo $key;?></option>
 														<?php }?>
