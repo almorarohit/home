@@ -52,8 +52,8 @@
 								</div>
 								<div class="product-img">
 									<?php  if(isset($fp[5])){?><span class="sale-text">sale</span><?php } ?>
-									<a href="/single-product.php?id=<?php echo $fp;?>">
-										<img style="height:100%;" class="primary-img" src="img/new-product/<?php echo $fp[3];?>" alt="">
+									<a style="height:200px;width:150px;margin-left:50px;" href="/single-product.php?id=<?php echo $fp;?>">
+										<img style="height:200px;width:150px;" class="primary-img" src="img/new-product/<?php echo $fp[3];?>" alt="">
 									</a>
 								</div>
 								<div class="add-to-cart">
