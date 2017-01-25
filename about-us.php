@@ -1,9 +1,9 @@
 <?php include 'header.php';?>
 <div class="container" style="margin-top:50px;">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-             <h2>About Us</h2>
+             <h2 style="color:#000;">ABOUT US</h2>
 
-				<p>Sastachawal.com objective is to become India’s premier E-commerce
+				<p style="font-size:20px;font-weight:normal;color:#000;">Sastachawal.com objective is to become India’s premier E-commerce
 
 				enabled Grocery Store. We begin our journey with Indian favorite food
 

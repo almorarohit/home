@@ -2,7 +2,7 @@
 
 	session_start();
 
-	$brands = array('India Gate','Pansari','KRB','Sella','Delhi Pasand','Loose Dal','Packed Dal');
+	$brands = array('India Gate','Pansari','KRB','Sella','Delhi Pasand','Loose Dal');
 
 	$dal_brands = array('5', '6');
 	//tell which brands are of dal from $brands (remember array starts from 0)
@@ -39,35 +39,35 @@
 		array('Daily','its very very nice.', array("5kg" => array('650', '280'), "10kg" => array('1300', '555')), 'DP-DAILY1.jpg', '5'),
 		
 		// DAL start here	
-		array('Moong Dhuli','its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('85', '72'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'moong-dhuli.jpg', '6'),
+		array('Moong Dhuli','its very very nice dal.', array("0.5kg" => array('45', '36'), "1kg" => array('85', '72')), 'moong-dhuli.jpg', '6'),
 
-		array('Moong Sabut','its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('85', '72'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'moong-sabut.jpg', '6'),
+		array('Moong Sabut','its very very nice dal.', array("0.5kg" => array('45', '36'), "1kg" => array('85', '72')), 'moong-sabut.jpg', '6'),
 
-		array('Moong Chilka', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('85', '72'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'moong-chilka.jpg', '6'),
+		array('Moong Chilka', 'its very very nice dal.', array("0.5kg" => array('45', '36'), "1kg" => array('85', '72')), 'moong-chilka.jpg', '6'),
 
-		array('Urad Dhuli', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('110', '100'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'urad-dhuli-dal.jpg', '6'),
+		array('Urad Dhuli', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-dhuli-dal.jpg', '6'),
 
-		array('Urad Sabut', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('110', '100'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'urad-sabut.jpg', '6'),
+		array('Urad Sabut', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-sabut.jpg', '6'),
 
-		array('Udad Chilka', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('110', '100'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'urad-chilka.jpg', '6'),
+		array('Udad Chilka', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-chilka.jpg', '6'),
 
-		array('Arhar', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('110', '90'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'Arhar-Dal.jpg', '6'),
+		array('Arhar', 'its very very nice dal.', array("0.5kg" => array('55', '45'), "1kg" => array('110', '90')), 'Arhar-Dal.jpg', '6'),
 
-		array('Kaali Masoor', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('80', '67'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'kaali-masoor.jpg', '6'),
+		array('Kaali Masoor', 'its very very nice dal.', array("0.5kg" => array('40', '34'), "1kg" => array('80', '67')), 'kaali-masoor.jpg', '6'),
 
-		array('Lal Masoor(Malka)', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('80', '67'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'masoor-dal.jpg', '6'),
+		array('Lal Masoor(Malka)', 'its very very nice dal.', array("0.5kg" => array('40', '34'), "1kg" => array('80', '67')), 'masoor-dal.jpg', '6'),
 
-		array('Kala Chana', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('120', '100'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'kala-chana.jpg', '6'),
+		array('Kala Chana', 'its very very nice dal.', array("0.5kg" => array('60', '50'), "1kg" => array('120', '100')), 'kala-chana.jpg', '6'),
 
-		array('Chane ki Dal', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('120', '102'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'chana-dal.jpg', '6'),
+		array('Chane ki Dal', 'its very very nice dal.', array("0.5kg" => array('60', '51'), "1kg" => array('120', '102')), 'chana-dal.jpg', '6'),
 
-		array('White chana','its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('160', '140'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'white-chana.jpg', '6'),
+		array('White chana','its very very nice dal.', array("0.5kg" => array('80', '70'), "1kg" => array('160', '140')), 'white-chana.jpg', '6'),
 
-		array('White Lobia', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('95', '85'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'lobia-dal.jpg', '6'),
+		array('White Lobia', 'its very very nice dal.', array("0.5kg" => array('48', '43'), "1kg" => array('95', '85')), 'lobia-dal.jpg', '6'),
 
-		array('Safed Matar', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('55', '48'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'white-peas.jpg', '6'),
+		array('Safed Matar', 'its very very nice dal.', array("0.5kg" => array('28', '24'), "1kg" => array('55', '48')), 'white-peas.jpg', '6'),
 
-		array('Rajma Chitra', 'its very very nice dal.', array("1/2kg" => array('650', '280'), "1kg" => array('125', '108'), "2kg" => array('1300', '555'),"5kg" => array('1300', '555')), 'Rajma-chitra.jpg', '6'),
+		array('Rajma Chitra', 'its very very nice dal.', array("0.5kg" => array('63', '54'), "1kg" => array('125', '108')), 'Rajma-chitra.jpg', '6'),
 
 		/*array('Moong Dhuli', '85', '72', 'MD.png', '7'),
 		array('Moong Sabut', '85', '72', 'moong-sabut.jpg', '7'),
