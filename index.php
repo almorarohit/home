@@ -44,13 +44,13 @@
 						<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
 							<div class="single-product">
 								<div class="product-details">
-									<div class="ratings no-rating">
+									<div class="ratings">
 										<ul>
+										<?php
+										if(isset($all_products[$fp][6])) {
+											for ($i=0; $i < $all_products[$fp][6]; $i++) { ?>
 											<li><i class="fa fa-star-o"></i></li>
-											<li><i class="fa fa-star-o"></i></li>
-											<li><i class="fa fa-star-o"></i></li>
-											<li><i class="fa fa-star-o"></i></li>
-											<li><i class="fa fa-star-o"></i></li>
+										<?php } } ?>
 										</ul>
 									</div>
 									<div class="product-name">
@@ -64,7 +64,7 @@
 									</div>
 								</div>
 								<div class="product-img">
-									<?php  if(isset($all_products[$fp][5])){?><span class="sale-text">sale</span><?php } ?>
+									<?php  if(isset($all_products[$fp][5])){?><span class="sale-text"><?php echo $all_products[$fp][5];?></span><?php } ?>
 									<a style="height:200px;width:150px;margin-left:50px;" href="/single-product.php?id=<?php echo $fp;?>">
 										<img style="height:200px;width:150px;" class="primary-img" src="img/new-product/<?php echo $all_products[$fp][3];?>" alt="">
 									</a>

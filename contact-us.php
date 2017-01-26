@@ -71,7 +71,7 @@
 		<?php include 'footer.php'; ?>
 
 		<!-- Google Map js -->
-		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0mx_xE2QrbBZDaZ4LYE4o8DiL8nghkeU"></script>
 		<script>
 			function initialize() {
 			  var mapOptions = {
@@ -95,4 +95,3 @@
 
 			google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
-		

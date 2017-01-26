@@ -8,8 +8,8 @@
 	//tell which brands are of dal from $brands (remember array starts from 0)
 
 	$all_products = array(
-		array('Feast Rozzana','its very nice.',array("1kg" => array('80', '58'),"5kg" => array('395', '265'),"10kg" => array('790', '520'),"25kg" => array('1975', '1280')) , 'IG-FZ.png', '1',1),
-		array('Mini Dubar','its also very nice.', array("5kg" => array('335', '225'), "10kg" => array('670', '445'), "25kg" => array('1675', '1100')), 'IG-MD.jpg', '1'),
+		array('Feast Rozzana','its very nice.',array("1kg" => array('80', '58'),"5kg" => array('395', '265'),"10kg" => array('790', '520'),"25kg" => array('1975', '1280')) , 'IG-FZ.png', '1','HEY', 2),
+		array('Mini Dubar','its also very nice.', array("5kg" => array('335', '225'), "10kg" => array('670', '445'), "25kg" => array('1675', '1100')), 'IG-MD.jpg', '1', 'Sale'),
 		array('Mini Mogra','its very very nice.', array("10kg" => array('520', '340'), "25kg" => array('1300', '830')), 'IG-MM.jpg', '1'),
 		array('Mini Mogra II', 'its very very nice.',array("10kg" => array('400', '265'), "25kg" => array('1000', '650')), 'IG-MM2.jpg', '1',1),
 		array('Mogra','its very very nice.', array("5kg" => array('320', '215'), "10kg" => array('640', '425'),"25kg" => array('1600', '1050')), 'IG-M.png', '1'),
@@ -88,7 +88,7 @@
 
 	$featured_product = array('0', '2', '4', '1', '7');
 
-	//name, description, array, image name, brand id(1,2,3,4),1(if in sale)
+	//name, description, array, image name, brand id(1,2,3,4),description like sale(if in sale), no. of stars
 
 	if($_POST['contact_form']){
 
@@ -451,7 +451,7 @@
 	  </div>
 	 <div class="form-group">
 	    <label for="exampleInputPassword1">Address</label>
-	    <textarea class="form-control" name="address" placeholder="Full address"></textarea>
+	    <textarea class="form-control" name="address" placeholder="Full address" required=""></textarea>
 	  </div>
 	  <div class="form-group">
     <label for="exampleInputPassword1">Area</label>
