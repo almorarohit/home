@@ -33,6 +33,7 @@
 								<div class="product-details">
 									<div class="ratings no-rating">
 										<ul>
+											<li><i class="fa fa-star-o"></i></li>
 										<?php if(isset($fp[6])) {
 											for ($i=0; $i < $fp[6]; $i++) { ?>
 												<li><i class="fa fa-star-o"></i></li>
