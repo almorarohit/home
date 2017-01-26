@@ -41,7 +41,7 @@
 										</ul>
 									</div>
 									<div class="product-name">
-										<h3><a href="/single-product.php?id=<?php echo $fp;?>"><?php echo $fp[0]?></a></h3>
+										<h3><a href="/single-product.php?id=<?php echo $i-1;?>"><?php echo $fp[0]?></a></h3>
 									</div>
 									<div class="price-box">
 									<?php foreach($fp[2] as $key=>$value){?>
@@ -52,7 +52,7 @@
 								</div>
 								<div class="product-img">
 									<?php  if(isset($fp[5])){?><span class="sale-text">sale</span><?php } ?>
-									<a style="height:200px;width:150px;margin-left:50px;" href="/single-product.php?id=<?php echo $fp;?>">
+									<a style="height:200px;width:150px;margin-left:50px;" href="/single-product.php?id=<?php echo $i-1;?>">
 										<img style="height:200px;width:150px;" class="primary-img" src="img/new-product/<?php echo $fp[3];?>" alt="">
 									</a>
 								</div>
