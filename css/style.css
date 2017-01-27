@@ -452,9 +452,10 @@ body {
   text-transform: uppercase;
   position: relative;
 }
-.main-menu nav ul li:nth-child(5) a:after,.main-menu nav ul li:nth-child(6) a:after{
+.main-menu nav ul li a:after{
 	display:none;
 }
+
 .main-menu nav ul li:hover a, .main-menu nav ul li:hover a::after {
   color: #f3652a;
 }

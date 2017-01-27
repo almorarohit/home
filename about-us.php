@@ -1,9 +1,9 @@
 <?php include 'header.php';?>
 <div class="container" style="margin-top:50px;">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-             <h2 style="color:#000;">ABOUT US</h2>
+		<div style="text-align:center;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <h2>ABOUT US</h2>
 
-				<p style="font-size:20px;font-weight:normal;color:#000;">Sastachawal.com objective is to become India’s premier E-commerce
+				<p style="font-size:18px;">Sastachawal.com objective is to become India’s premier E-commerce
 
 				enabled Grocery Store. We begin our journey with Indian favorite food
 
@@ -18,6 +18,16 @@
 				sastachawal.com a delightful experience. Our online store offers hassle
 
 				free browsing over best quality products and on time home delivery.
+
+				We also provide superb combo offers to save more of your money and
+
+				delivery right at your doorsteps at your preferred timings. We allow our
+
+				customers to pay through Paytm promoting Cashless Economy and
+
+				Digital India. We guarantee best quality and fastest shipping.
+
+				<br><br>
 
 				Feel free to write suggestions as we want our customers to be happy
 

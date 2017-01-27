@@ -9,11 +9,11 @@
                             <!-- single-footer-service start -->
                             <div class="single-footer-service">
                                 <div class="footer-service-icon">
-                                    <img class="box-icon" src="img/icons/truck.png" alt="">
+                                    <img class="box-icon" src="img/icons/ft-img_3.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
-                                    <h2>free shipping upto 7km</h2>
-                                    <p>shipping charges over 7km</p>
+                                    <h2>24/7 customer service</h2>
+                                    <p>Call us 24/7 at +91-7838243299, +91-9555439342</p>
                                 </div>
                             </div>
                             <!-- single-footer-service end -->
@@ -22,11 +22,11 @@
                             <!-- single-footer-service start -->
                             <div class="single-footer-service">
                                 <div class="footer-service-icon">
-                                    <img class="box-icon" src="img/icons/ft-img_3.png" alt="">
+                                    <img class="box-icon" src="img/icons/truck.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
-                                    <h2>24/7 customer service</h2>
-                                    <p>Call us 24/7 at +91-7838243299, +91-9555439342</p>
+                                    <h2>Delivery</h2>
+                                     <p>Fast Delivery</p> 
                                 </div>
                             </div>
                             <!-- single-footer-service end -->
@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="footer-service-text">
                                     <h2>cancellation</h2>
-                                    <p>cancellation within 4 hrs</p>
+                                    <p>Cancellation within 4 hrs</p>
                                 </div>
                             </div>
                             <!-- single-footer-service end -->
@@ -120,6 +120,9 @@
                                         </li>
                                         <li>
                                             <a href="terms&conditions.php">Terms and Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="privacy_policy.php">Privacy Policy</a>
                                         </li>
                                         <li>
                                             <a href="faqs.php">FAQs</a>

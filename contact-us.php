@@ -22,7 +22,7 @@
 							<!-- contact info -->
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<div class="contact-info">
-									<h3>contactct info</h3>
+									<h3>contact info</h3>
 									<ul>
 										<li>
 											<i class="fa fa-map-marker"></i> <strong>Address</strong>
@@ -51,10 +51,10 @@
 												<input name="contact_email" type="email" placeholder="Email (required)" />
 											</div>
 											<div class="col-lg-12 col-md-6 col-sm-12 col-xs-12">
-												<input name="contact_subject" type="text" placeholder="Subject(required)" required="" />
+												<input name="contact_subject" type="text" placeholder="Subject (required)" required="" />
 											</div>
 											<div class="col-lg-12 col-md-6 col-sm-12 col-xs-12">
-												<textarea name="contact_message" id="message" cols="30" rows="10" placeholder="Message(required)"></textarea>
+												<textarea name="contact_message" id="message" cols="30" rows="10" placeholder="Message (required)"></textarea>
 												<input type="submit" name="contact_form" value="Submit Form" />
 											</div>
 										</form>

@@ -8,7 +8,7 @@
 					<img style="height:100%;" src="img/slider/124.jpg" alt="main slider" title="#htmlcaption1"/>
 					<img style="height:100%;" src="img/slider/65.png" alt="main slider" title="#htmlcaption2"/>
 					<img style="height:100%;" src="img/slider/indiagate.jpg" alt="main slider" title="#htmlcaption2"/>
-					<img style="height:100%;" src="img/slider/owned.png" alt="main slider" title="#htmlcaption2"/>
+					<img style="height:100%;" src="img/slider/shop_more.jpg" alt="main slider" title="#htmlcaption2"/>
 				</div>
 				<div id="htmlcaption1" class="nivo-html-caption slider-caption">
 					<div class="slider-progress"></div>
@@ -64,7 +64,7 @@
 									</div>
 								</div>
 								<div class="product-img">
-									<?php  if(isset($all_products[$fp][5])){?><span class="sale-text"><?php echo $all_products[$fp][5];?></span><?php } ?>
+									<?php  if(isset($all_products[$fp][5])){?><span style="font-size:9px;" class="sale-text"><?php echo $all_products[$fp][5];?></span><?php } ?>
 									<a style="height:200px;width:150px;margin-left:50px;" href="/single-product.php?id=<?php echo $fp;?>">
 										<img style="height:200px;width:150px;" class="primary-img" src="img/new-product/<?php echo $all_products[$fp][3];?>" alt="">
 									</a>
