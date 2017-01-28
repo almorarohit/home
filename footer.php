@@ -229,7 +229,6 @@
 
     function select(ctr){
         var val = $('.kgs' + ctr + ' :selected').attr('data-value');
-
         var res = val.split(",");
 
         $('.kgs' + ctr + ' :selected').parent().siblings(".price").attr('value', res[1]);

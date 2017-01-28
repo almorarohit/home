@@ -35,7 +35,7 @@
 										<ul>
 											<li><i class="fa fa-star-o"></i></li>
 										<?php if(isset($fp[6])) {
-											for ($i=0; $i < $fp[6]; $i++) { ?>
+											for ($ix=0; $ix < $fp[6]; $ix++) { ?>
 												<li><i class="fa fa-star-o"></i></li>
 										<?php } } ?>
 										</ul>
