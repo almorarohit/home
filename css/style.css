@@ -488,6 +488,11 @@ body {
 .main-menu nav ul li ul li {
     display: block;
 }
+
+.main-menu nav ul li ul li a:hover{
+    text-align: center;
+}
+
 .main-menu nav ul li ul li a {
     color: #777;
     display: block;
@@ -1318,6 +1323,8 @@ body {
 .middle-text ul.footer-icon li a:hover {
 	color: #f3652a;
 	border-color: #f3652a;
+  height: 42px;
+  width: 42px;
 }
 .middle-footer-text h3 {
   color: #323334;

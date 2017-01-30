@@ -31,7 +31,7 @@
 						<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
 							<div class="single-product">
 								<div class="product-details">
-									<div class="ratings no-rating">
+									<div class="ratings">
 										<ul>
 											<li><i class="fa fa-star-o"></i></li>
 										<?php if(isset($fp[6])) {
@@ -51,7 +51,7 @@
 									</div>
 								</div>
 								<div class="product-img">
-									<?php  if(isset($fp[5])){?><span class="sale-text"><?php echo $fp[5];?></span><?php } ?>
+									<?php  if(isset($fp[5])){?><span style="font-size:9px;" class="sale-text"><?php echo $fp[5];?></span><?php } ?>
 									<a style="height:200px;width:150px;margin-left:50px;" href="/single-product.php?id=<?php echo $i-1;?>">
 										<img style="height:200px;width:150px;" class="primary-img" src="img/new-product/<?php echo $fp[3];?>" alt="">
 									</a>

@@ -9,7 +9,7 @@
                             <!-- single-footer-service start -->
                             <div class="single-footer-service">
                                 <div class="footer-service-icon">
-                                    <img class="box-icon" src="img/icons/ft-img_3.png" alt="">
+                                    <img style="opacity:0.5;" class="box-icon" src="img/icons/customercare.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
                                     <h2>24/7 customer service</h2>
@@ -22,11 +22,11 @@
                             <!-- single-footer-service start -->
                             <div class="single-footer-service">
                                 <div class="footer-service-icon">
-                                    <img class="box-icon" src="img/icons/truck.png" alt="">
+                                    <img style="opacity:0.7;" class="box-icon" src="img/icons/truck.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
                                     <h2>Delivery</h2>
-                                     <p>Fast Delivery</p> 
+                                     <p>24 Hour Delivery Guaranteed</p> 
                                 </div>
                             </div>
                             <!-- single-footer-service end -->
@@ -35,11 +35,11 @@
                             <!-- single-footer-service start -->
                             <div class="single-footer-service">
                                 <div class="footer-service-icon">
-                                    <img class="box-icon" src="img/icons/cancel.png" alt="">
+                                    <img style="opacity:0.5;" class="box-icon" src="img/icons/order.png" alt="">
                                 </div>
                                 <div class="footer-service-text">
-                                    <h2>cancellation</h2>
-                                    <p>Cancellation within 4 hrs</p>
+                                    <h2>Order</h2>
+                                    <p>Minimum Order Rs 300</p>
                                 </div>
                             </div>
                             <!-- single-footer-service end -->
@@ -65,7 +65,7 @@
                                 <div class="middle-text">
                                     <ul class="footer-icon">
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="https://www.facebook.com/sastachawal/">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
@@ -75,7 +75,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="https://plus.google.com/u/0/">
                                                 <i class="fa fa-google-plus"></i>
                                             </a>
                                         </li>

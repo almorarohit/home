@@ -5,10 +5,10 @@
 			<!-- slider start -->
 			<div class="slider">
 				<div id="topSlider" class="nivoSlider nevo-slider">
-					<img style="height:100%;" src="img/slider/124.jpg" alt="main slider" title="#htmlcaption1"/>
-					<img style="height:100%;" src="img/slider/65.png" alt="main slider" title="#htmlcaption2"/>
-					<img style="height:100%;" src="img/slider/indiagate.jpg" alt="main slider" title="#htmlcaption2"/>
-					<img style="height:100%;" src="img/slider/shop_more.jpg" alt="main slider" title="#htmlcaption2"/>
+					<img style="height:100%;" src="img/slider/2.jpg" alt="main slider" title="#htmlcaption1"/>
+					<img style="height:100%;" src="img/slider/food copy.jpg" alt="main slider" title="#htmlcaption2"/>
+					<img style="height:100%;" src="img/slider/indiagate550px.jpg" alt="main slider" title="#htmlcaption2"/>
+					<img style="height:100%;" src="img/slider/3.jpg" alt="main slider" title="#htmlcaption2"/>
 				</div>
 				<div id="htmlcaption1" class="nivo-html-caption slider-caption">
 					<div class="slider-progress"></div>
@@ -44,7 +44,7 @@
 						<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
 							<div class="single-product">
 								<div class="product-details">
-									<div class="ratings">
+									<div class="ratings ">
 										<ul>
 										<?php
 										if(isset($all_products[$fp][6])) {

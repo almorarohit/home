@@ -8,66 +8,67 @@
 	//tell which brands are of dal from $brands (remember array starts from 0)
 
 	$all_products = array(
-		array('Feast Rozzana','its very nice.',array("1kg" => array('80', '58'),"5kg" => array('395', '265'),"10kg" => array('790', '520'),"25kg" => array('1975', '1280')) , 'IG-FZ.png', '1','28% OFF', 5),
-		array('Mini Dubar','its also very nice.', array("5kg" => array('335', '225'), "10kg" => array('670', '445'), "25kg" => array('1675', '1100')), 'IG-MD.jpg', '1', '33% OFF',5),
-		array('Mini Mogra','its very very nice.', array("10kg" => array('520', '340'), "25kg" => array('1300', '830')), 'IG-MM.jpg', '1', '35% OFF',5),
-		array('Mini Mogra II', 'its very very nice.',array("10kg" => array('400', '265'), "25kg" => array('1000', '650')), 'IG-MM2.jpg', '1', '34% OFF',4),
-		array('Mogra','its very very nice.', array("5kg" => array('320', '215'), "10kg" => array('640', '425'),"25kg" => array('1600', '1050')), 'IG-M.png', '1', '33% OFF',5),
-		array('Tibar','its very very nice.', array("1kg" => array('100', '70'), "5kg" => array('500', '335'), "10kg" => array('1000', '665'), "25kg" => array('2500', '1625')), 'IG-T.png', '1', '30% OFF',4),
-		array('Dubar','its very very nice.', array("5kg" => array('455', '320'), "10kg" => array('910', '630'), "25kg" => array('2270', '1540')), 'IG-D.png', '1', '30% OFF',5),
-		array('Mahak','its very very nice.', array("10kg" => array('600', '350'), "25kg" => array('1500', '840')), 'P-Mehak.png', '2', '41% OFF',5),
-		array('Tasty','its very very nice.', array("10kg" => array('780', '450'), "25kg" => array('1980', '1090')), 'P-Tasty.jpg', '2', '42% OFF',5),
-		array('Khana Khazana','its very very nice.', array("10kg" => array('1200', '550'), "25kg" => array('3000', '1350')), 'P-Khana-Khazana.jpg', '2', '54% OFF',4),
+		array('Feast Rozzana','its very nice.',array("1kg" => array('80', '65'),"5kg" => array('395', '295'),"10kg" => array('790', '570'),"25kg" => array('1975', '1405')) , 'IG-FZ.png', '1','28% OFF', 4),
+		array('Mini Dubar','its also very nice.', array("5kg" => array('335', '255'), "10kg" => array('670', '495'), "25kg" => array('1675', '1225')), 'IG-MD.jpg', '1', '33% OFF',4),
+		array('Mini Mogra','its very very nice.', array("10kg" => array('520', '390'), "25kg" => array('1300', '955')), 'IG-MM.jpg', '1', '35% OFF',4),
+		array('Mini Mogra II', 'its very very nice.',array("10kg" => array('400', '315'), "25kg" => array('1000', '775')), 'IG-MM2.jpg', '1', '34% OFF',3),
+		array('Mogra','its very very nice.', array("5kg" => array('320', '245'), "10kg" => array('640', '475'),"25kg" => array('1600', '1175')), 'IG-M.png', '1', '33% OFF',3),
+		array('Tibar','its very very nice.', array("1kg" => array('100', '77'), "5kg" => array('500', '365'), "10kg" => array('1000', '715'), "25kg" => array('2500', '1750')), 'IG-T.png', '1', '30% OFF',4),
+		array('Dubar','its very very nice.', array("5kg" => array('455', '350'), "10kg" => array('910', '680'), "25kg" => array('2270', '1665')), 'IG-D.png', '1', '30% OFF',3),
+		array('Mahak','its very very nice.', array("10kg" => array('600', '400'), "25kg" => array('1500', '965')), 'P-Mehak.png', '2', '41% OFF',4),
+		array('Tasty','its very very nice.', array("10kg" => array('780', '500'), "25kg" => array('1980', '1215')), 'P-Tasty.jpg', '2', '42% OFF',4),
+		array('Khana Khazana','its very very nice.', array("10kg" => array('1200', '600'), "25kg" => array('3000', '1475')), 'P-Khana-Khazana.jpg', '2', '54% OFF',3),
 		array('Royal','its very very nice.', array("NA" => array('500', '430'), "NA" => array('1250', '1075')), 'P-Royal.jpg', '2', '14% OFF',4),
-		array('Daily','its very very nice.', array("10kg" => array('680', '390'), "25kg" => array('1700', '940')), 'p-daily.png', '2', '43% OFF',4),
-		array('1','its very very nice.', array("10kg" => array('830', '650'), "25kg" => array('2050', '1610')), 'KRB-1.jpg', '3', '22% OFF',4),
-		array('2','its very very nice.', array("10kg" => array('750', '530'), "25kg" => array('1875', '1310')), 'KRB-2.jpg', '3', '29% OFF',4),
-		array('3','its very very nice.', array("10kg" => array('660', '490'), "25kg" => array('1625', '1210')), 'KRB-3.jpg', '3', '26% OFF',4),
-		array('4','its very very nice.', array("10kg" => array('620', '450'), "25kg" => array('1525', '1110')), 'KRB-4.jpg', '3', '27% OFF',5),
-		array('5','its very very nice.', array("10kg" => array('580', '430'), "25kg" => array('1450', '1060')), 'KRB-5.jpg', '3', '26% OFF',5),
-		array('6','its very very nice.', array("10kg" => array('530', '380'), "25kg" => array('1300', '945')), 'KRB-6.jpg', '3', '28% OFF',5),
-		array('7','its very very nice.', array("10kg" => array('480', '345'), "25kg" => array('1175', '850')), 'KRB-7.jpg', '3', '28% OFF',5),
-		array('8','its very very nice.', array("10kg" => array('380', '290'), "25kg" => array('925', '710')), 'KRB-8.jpg', '3', '24% OFF',5),
-		array('XXL','its very very nice.', array("10kg" => array('975', '750'), "25kg" => array('2430', '1850')), 'KRB-XXL.jpg', '3', '23% OFF',5),
+		array('Daily','its very very nice.', array("10kg" => array('680', '440'), "25kg" => array('1700', '1065')), 'p-daily.png', '2', '43% OFF',3),
+		array('1','its very very nice.', array("10kg" => array('830', '700'), "25kg" => array('2050', '1735')), 'KRB-1.jpg', '3', '22% OFF',4),
+		array('2','its very very nice.', array("10kg" => array('750', '580'), "25kg" => array('1875', '1435')), 'KRB-2.jpg', '3', '29% OFF',4),
+		array('3','its very very nice.', array("10kg" => array('660', '540'), "25kg" => array('1625', '1335')), 'KRB-3.jpg', '3', '26% OFF',4),
+		array('4','its very very nice.', array("10kg" => array('620', '500'), "25kg" => array('1525', '1235')), 'KRB-4.jpg', '3', '27% OFF',3),
+		array('5','its very very nice.', array("10kg" => array('580', '480'), "25kg" => array('1450', '1185')), 'KRB-5.jpg', '3', '26% OFF',4),
+		array('6','its very very nice.', array("10kg" => array('530', '430'), "25kg" => array('1300', '1070')), 'KRB-6.jpg', '3', '28% OFF',4),
+		array('7','its very very nice.', array("10kg" => array('480', '395'), "25kg" => array('1175', '975')), 'KRB-7.jpg', '3', '28% OFF',3),
+		array('8','its very very nice.', array("10kg" => array('380', '340'), "25kg" => array('925', '835')), 'KRB-8.jpg', '3', '24% OFF',3),
+		array('XXL','its very very nice.', array("10kg" => array('975', '800'), "25kg" => array('2430', '1975')), 'KRB-XXL.jpg', '3', '23% OFF',4),
 /*		array('Galaxy Golden Sella','its very very nice.', array("25kg" => array('1075', '1250')), 'Galaxy-golden-sella.jpg', '4'),*/
-		array('Golden Sella Double Chabi','its very very nice.', array("25kg" => array('2000', '1550')), 'Double Chabi.png', '4', '23% OFF',4),
-		array('Premium','its very very nice.', array("5kg" => array('900', '360'), "10kg" => array('1800', '715')), 'DP-Premium.jpg', '5', '60% OFF',4),
-		array('Super','its very very nice.', array("5kg" => array('800', '330'), "10kg" => array('1600', '655')), 'DP-Super.jpg', '5', '59% OFF',5),
-		array('Light','its very very nice.', array("5kg" => array('560', '240'), "10kg" => array('1120', '475')), 'DP-Light.jpg', '5', '57% OFF',5),
-		array('Regular','its very very nice.', array("5kg" => array('750', '315'), "10kg" => array('1500', '625')), 'DP-Regular.jpg', '5', '58% OFF',5),
-		array('Easy','its very very nice.', array("5kg" => array('480', '200'), "10kg" => array('960', '390')), 'DP-Easy.jpg', '5', '70% OFF',5),
-		array('Daily','its very very nice.', array("5kg" => array('650', '280'), "10kg" => array('1300', '555')), 'DP-Daily.jpg', '5', '57% OFF',5),
+		array('Golden Sella Double Chabi','its very very nice.', array("25kg" => array('2000', '1675')), 'Double Chabi.png', '4', '23% OFF',4),
+		array('Premium','its very very nice.', array("5kg" => array('900', '340'), "10kg" => array('1800', '765')), 'DP-Premium.jpg', '5', '60% OFF',4),
+		array('Super','its very very nice.', array("5kg" => array('800', '360'), "10kg" => array('1600', '705')), 'DP-Super.jpg', '5', '59% OFF',4),
+		array('Light','its very very nice.', array("5kg" => array('560', '270'), "10kg" => array('1120', '525')), 'DP-Light.jpg', '5', '57% OFF',3),
+		array('Regular','its very very nice.', array("5kg" => array('750', '345'), "10kg" => array('1500', '675')), 'DP-Regular.jpg', '5', '58% OFF',4),
+		array('Easy','its very very nice.', array("5kg" => array('480', '230'), "10kg" => array('960', '440')), 'DP-Easy.jpg', '5', '70% OFF',4),
+		array('Daily','its very very nice.', array("5kg" => array('650', '310'), "10kg" => array('1300', '680')), 'DP-Daily.jpg', '5', '57% OFF',3),
+		array('Selected','its very very nice.', array("5kg" => array('650', '30'), "10kg" => array('1300', '680')), 'DP-SELECTED.png', '5', '57% OFF',4),
 		
 		// DAL start here	
-		array('Moong Dhuli','its very very nice dal.', array("0.5kg" => array('45', '36'), "1kg" => array('85', '72')), 'moong-dhuli.jpg', '6', '15% OFF',4),
+		array('Moong Dhuli','its very very nice dal.', array("0.5kg" => array('45', '38'), "1kg" => array('85', '75')), 'moong-dhuli.jpg', '6', '12% OFF',4),
 
-		array('Moong Sabut','its very very nice dal.', array("0.5kg" => array('45', '36'), "1kg" => array('85', '72')), 'moong-sabut.jpg', '6', '15% OFF',4),
+		array('Moong Sabut','its very very nice dal.', array("0.5kg" => array('45', '38'), "1kg" => array('85', '75')), 'moong-sabut.jpg', '6', '12% OFF',3),
 
-		array('Moong Chilka', 'its very very nice dal.', array("0.5kg" => array('45', '36'), "1kg" => array('85', '72')), 'moong-chilka.jpg', '6', '15% OFF',4),
+		array('Moong Chilka', 'its very very nice dal.', array("0.5kg" => array('45', '38'), "1kg" => array('85', '75')), 'moong-chilka.jpg', '6', '12% OFF',4),
 
-		array('Urad Dhuli', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-dhuli-dal.jpg', '6', '9% OFF',4),
+		array('Urad Dhuli', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-dhuli-dal.jpg', '6', '9% OFF',3),
 
-		array('Urad Sabut', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-sabut.jpg', '6', '9% OFF',5),
+		array('Urad Sabut', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-sabut.jpg', '6', '9% OFF',4),
 
-		array('Urad Chilka', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-chilka.jpg', '6', '9% OFF',5),
+		array('Urad Chilka', 'its very very nice dal.', array("0.5kg" => array('55', '50'), "1kg" => array('110', '100')), 'urad-chilka.jpg', '6', '9% OFF',4),
 
-		array('Arhar', 'its very very nice dal.', array("0.5kg" => array('55', '45'), "1kg" => array('110', '90')), 'Arhar-Dal.jpg', '6', '18% OFF',5),
+		array('Arhar', 'its very very nice dal.', array("0.5kg" => array('55', '45'), "1kg" => array('120', '88')), 'Arhar-Dal.jpg', '6', '25% OFF',4),
 
-		array('Kaali Masoor', 'its very very nice dal.', array("0.5kg" => array('40', '34'), "1kg" => array('80', '67')), 'kaali-masoor.jpg', '6', '16% OFF',5),
+		array('Kaali Masoor', 'its very very nice dal.', array("0.5kg" => array('40', '36'), "1kg" => array('80', '71')), 'kaali-masoor.jpg', '6', '11% OFF',3),
 
-		array('Lal Masoor(Malka)', 'its very very nice dal.', array("0.5kg" => array('40', '34'), "1kg" => array('80', '67')), 'masoor-dal.jpg', '6', '16% OFF',4),
+		array('Lal Masoor(Malka)', 'its very very nice dal.', array("0.5kg" => array('40', '36'), "1kg" => array('80', '71')), 'masoor-dal.jpg', '6', '16% OFF',3),
 
-		array('Kala Chana', 'its very very nice dal.', array("0.5kg" => array('60', '50'), "1kg" => array('120', '100')), 'kala-chana.jpg', '6', '17% OFF',4),
+		array('Kala Chana', 'its very very nice dal.', array("0.5kg" => array('60', '44'), "1kg" => array('120', '88')), 'kala-chana.jpg', '6', '17% OFF',4),
 
-		array('Chane ki Dal', 'its very very nice dal.', array("0.5kg" => array('60', '51'), "1kg" => array('120', '102')), 'chana-dal.jpg', '6', '15% OFF',4),
+		array('Chane ki Dal', 'its very very nice dal.', array("0.5kg" => array('60', '50'), "1kg" => array('120', '100')), 'chana-dal.jpg', '6', '15% OFF',4),
 
-		array('White chana','its very very nice dal.', array("0.5kg" => array('80', '70'), "1kg" => array('160', '140')), 'white-chana.jpg', '6', '13% OFF',5),
+		array('White chana','its very very nice dal.', array("0.5kg" => array('80', '70'), "1kg" => array('160', '130')), 'white-chana.jpg', '6', '13% OFF',4),
 
-		array('White Lobia', 'its very very nice dal.', array("0.5kg" => array('48', '43'), "1kg" => array('95', '85')), 'lobia-dal.jpg', '6', '11% OFF',5),
+		array('White Lobia', 'its very very nice dal.', array("0.5kg" => array('48', '43'), "1kg" => array('95', '85')), 'lobia-dal.jpg', '6', '11% OFF',4),
 
 		array('Safed Matar', 'its very very nice dal.', array("0.5kg" => array('28', '24'), "1kg" => array('55', '48')), 'white-peas.jpg', '6', '13% OFF',4),
 
-		array('Rajma Chitra', 'its very very nice dal.', array("0.5kg" => array('63', '54'), "1kg" => array('125', '108')), 'Rajma-chitra.jpg', '6', '14% OFF',5),
+		array('Rajma Chitra', 'its very very nice dal.', array("0.5kg" => array('63', '54'), "1kg" => array('125', '107')), 'Rajma-chitra.jpg', '6', '14% OFF',3),
 
 		/*array('Moong Dhuli', '85', '72', 'MD.png', '7'),
 		array('Moong Sabut', '85', '72', 'moong-sabut.jpg', '7'),
@@ -351,7 +352,7 @@
 													
 												</ul>
 												</li>
-												<li><a href="#">Dal &#8711;</a>
+												<li><a href="#">Pulses &#8711;</a>
 												<ul>
 													<?php foreach ($brands as $key => $value) {
 														if(in_array($key, $dal_brands)){?>
@@ -385,7 +386,8 @@
 							<div class="mobile-menu">
 								<nav id="dropdown">
 									<ul>
-																					<li><a href="#">Rice Brands</a>
+										<li><a href="index.php">Home</a></li>
+											<li><a href="#">Rice Brands &#8711;<!-- &#9660; --></a>
 												<ul>
 													<?php foreach ($brands as $key => $value) {
 														if(!in_array($key, $dal_brands)){?>
@@ -396,7 +398,7 @@
 													
 												</ul>
 												</li>
-												<li><a href="#">Dal</a>
+												<li><a href="#">Pulses &#8711;</a>
 												<ul>
 													<?php foreach ($brands as $key => $value) {
 														if(in_array($key, $dal_brands)){?>
@@ -407,11 +409,8 @@
 													
 												</ul>
 												</li>
-											<li></li>
-											<li></li>
-											<li><a href="about-us.php">about us</a></li>
-											<li><a href="contact-us.php">Contact us</a></li>
-											<li></li>								
+											<li><a href="about-us.php">About us</a></li>
+											<li><a href="contact-us.php">Contact us</a></li>				
 									</ul>
 								</nav>						
 							</div>					
