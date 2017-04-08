@@ -91,7 +91,7 @@
 
 	//name, description, array, image name, brand id(1,2,3,4),description like sale(if in sale), no. of stars
 
-	if($_POST['contact_form']){
+	if(isset($_POST['contact_form'])){
 
 		$to = "sastachawal@gmail.com";
 		$subject = $_POST['contact_subject'];
@@ -151,7 +151,7 @@
 				$txt = $txt . $n . $_POST['area'];				
 			}
 
-			$headers = "From: webmaster@example.com";
+			$headers = "From: enquiry@sastachawal.com";
 
 			mail($to,$subject,$txt,$headers);
 
@@ -432,7 +432,7 @@
       </div>
       <div class="modal-body">
         <form method="post" id="checkout_form">
-        <?php if($total <300){?>
+        <?php if(isset($total) && $total <300){?>
         <div class="form-group" id="charges">
 		    <label style="color: red">Minimum transaction should be of Rs 300</label>
 		  </div>

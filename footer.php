@@ -222,7 +222,7 @@
         $("#area").prop('disabled', true);
     }
 
-    <?php if($total <300){?>
+    <?php if(isset($total) && $total <300){?>
 
         dis();
     <?php }?>
